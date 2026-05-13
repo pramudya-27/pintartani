@@ -8,6 +8,8 @@ from datetime import datetime
 from backend.ml_service import ml_service_instance
 from backend.decision_engine import get_recommendation
 from backend.llm_gemini import is_extreme_condition, get_gemini_fallback
+from backend.llm_deepseek import get_deepseek_fallback
+from backend.auth_router import router as auth_router
 
 # Create APIRouter - can be mounted to another app or run directly
 router = APIRouter()
@@ -44,7 +46,7 @@ def predict_price(request: PredictionRequest):
         
         # 3. Handle Fallback / Decision Engine
         if is_extreme_condition(request.curah_hujan_mm, predicted_price, request.harga_sekarang):
-            # Use Gemini AI Fallback
+            # Coba menggunakan Gemini AI Fallback
             recommendation = get_gemini_fallback(
                 request.komoditas, 
                 request.suhu_celsius, 
@@ -53,6 +55,19 @@ def predict_price(request: PredictionRequest):
                 request.harga_sekarang
             )
             is_gemini = True
+
+            # Jika Gemini gagal atau tidak ada API Key, gunakan DeepSeek-v4-flash
+            if "tidak tersedia" in recommendation or "kendala teknis" in recommendation:
+                deepseek_recommendation = get_deepseek_fallback(
+                    request.komoditas, 
+                    request.suhu_celsius, 
+                    request.curah_hujan_mm, 
+                    predicted_price, 
+                    request.harga_sekarang
+                )
+                if "tidak tersedia" not in deepseek_recommendation and "kendala teknis" not in deepseek_recommendation:
+                    recommendation = deepseek_recommendation
+                    
         else:
             # Use Standard Decision Rules
             recommendation = get_recommendation(predicted_price, request.harga_sekarang)
@@ -78,6 +93,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.include_router(router)
+app.include_router(auth_router)
 
 if __name__ == "__main__":
     import uvicorn

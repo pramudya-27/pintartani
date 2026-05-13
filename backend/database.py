@@ -14,7 +14,15 @@ user     = os.getenv("DB_USER", "root")
 password = os.getenv("DB_PASSWORD", "")
 db_name  = os.getenv("DB_NAME", "pintartani_db")
 
-url = f"mysql+pymysql://{user}:{password}@{host}:{port}/{db_name}"
+database_url = os.getenv("DATABASE_URL")
+if database_url:
+    # Mengganti mysql:// menjadi mysql+pymysql:// agar dikenali SQLAlchemy jika diperlukan
+    if database_url.startswith("mysql://"):
+        url = database_url.replace("mysql://", "mysql+pymysql://", 1)
+    else:
+        url = database_url
+else:
+    url = f"mysql+pymysql://{user}:{password}@{host}:{port}/{db_name}"
 
 try:
     engine = create_engine(url, pool_pre_ping=True)
