@@ -3,3 +3,4 @@ scraping/database.json
 __pycache__
 logs
 frontend/node_modules
+frontend
