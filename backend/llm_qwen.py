@@ -7,16 +7,16 @@ from openai import OpenAI
 logger = logging.getLogger(__name__)
 
 load_dotenv()
-QWEN_API_KEY = os.getenv("QWEN_API_KEY")
+DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY", os.getenv("QWEN_API_KEY"))
 
-if QWEN_API_KEY:
+if DASHSCOPE_API_KEY:
     _client = OpenAI(
-        api_key=QWEN_API_KEY,
-        base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+        api_key=DASHSCOPE_API_KEY,
+        base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
     )
 else:
     _client = None
-    logger.warning("QWEN_API_KEY tidak ditemukan di environment variables.")
+    logger.warning("DASHSCOPE_API_KEY tidak ditemukan di environment variables.")
 
 MODEL = "qwen3.5-flash"
 
