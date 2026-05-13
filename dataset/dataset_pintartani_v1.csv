@@ -1,0 +1,820 @@
+tanggal,bulan,hari_dalam_minggu,nama_desa,nama_provinsi,komoditas,suhu_celsius,curah_hujan_mm,kategori_hujan,harga_pasar
+2026-01-23,1,4,Gembileme,Papua Pegunungan,Cabai Rawit,21.81,17.8,Lebat,40461
+2026-01-23,1,4,Gembileme,Papua Pegunungan,Bawang Merah,21.81,17.8,Lebat,35831
+2026-01-23,1,4,Gembileme,Papua Pegunungan,Tomat,21.81,17.8,Lebat,21339
+2026-01-24,1,5,Gembileme,Papua Pegunungan,Cabai Rawit,21.61,4.2,Ringan,36897
+2026-01-24,1,5,Gembileme,Papua Pegunungan,Bawang Merah,21.61,4.2,Ringan,29532
+2026-01-24,1,5,Gembileme,Papua Pegunungan,Tomat,21.61,4.2,Ringan,16604
+2026-01-25,1,6,Gembileme,Papua Pegunungan,Cabai Rawit,22.56,0.4,Ringan,37545
+2026-01-25,1,6,Gembileme,Papua Pegunungan,Bawang Merah,22.56,0.4,Ringan,30276
+2026-01-25,1,6,Gembileme,Papua Pegunungan,Tomat,22.56,0.4,Ringan,16063
+2026-01-26,1,0,Gembileme,Papua Pegunungan,Cabai Rawit,22.91,0.9,Ringan,37977
+2026-01-26,1,0,Gembileme,Papua Pegunungan,Bawang Merah,22.91,0.9,Ringan,29877
+2026-01-26,1,0,Gembileme,Papua Pegunungan,Tomat,22.91,0.9,Ringan,16078
+2026-01-27,1,1,Gembileme,Papua Pegunungan,Cabai Rawit,22.48,1.1,Ringan,36920
+2026-01-27,1,1,Gembileme,Papua Pegunungan,Bawang Merah,22.48,1.1,Ringan,29008
+2026-01-27,1,1,Gembileme,Papua Pegunungan,Tomat,22.48,1.1,Ringan,17091
+2026-01-28,1,2,Gembileme,Papua Pegunungan,Cabai Rawit,21.82,30.6,Lebat,42796
+2026-01-28,1,2,Gembileme,Papua Pegunungan,Bawang Merah,21.82,30.6,Lebat,35211
+2026-01-28,1,2,Gembileme,Papua Pegunungan,Tomat,21.82,30.6,Lebat,22896
+2026-01-29,1,3,Gembileme,Papua Pegunungan,Cabai Rawit,21.89,20.2,Lebat,42368
+2026-01-29,1,3,Gembileme,Papua Pegunungan,Bawang Merah,21.89,20.2,Lebat,34975
+2026-01-29,1,3,Gembileme,Papua Pegunungan,Tomat,21.89,20.2,Lebat,22512
+2026-01-30,1,4,Gembileme,Papua Pegunungan,Cabai Rawit,22.55,2.3,Ringan,36502
+2026-01-30,1,4,Gembileme,Papua Pegunungan,Bawang Merah,22.55,2.3,Ringan,29596
+2026-01-30,1,4,Gembileme,Papua Pegunungan,Tomat,22.55,2.3,Ringan,17811
+2026-01-31,1,5,Gembileme,Papua Pegunungan,Cabai Rawit,22.77,6.5,Ringan,37424
+2026-01-31,1,5,Gembileme,Papua Pegunungan,Bawang Merah,22.77,6.5,Ringan,29329
+2026-01-31,1,5,Gembileme,Papua Pegunungan,Tomat,22.77,6.5,Ringan,16117
+2026-02-01,2,6,Gembileme,Papua Pegunungan,Cabai Rawit,22.65,2.4,Ringan,36918
+2026-02-01,2,6,Gembileme,Papua Pegunungan,Bawang Merah,22.65,2.4,Ringan,30868
+2026-02-01,2,6,Gembileme,Papua Pegunungan,Tomat,22.65,2.4,Ringan,16039
+2026-02-02,2,0,Gembileme,Papua Pegunungan,Cabai Rawit,22.42,4.9,Ringan,37928
+2026-02-02,2,0,Gembileme,Papua Pegunungan,Bawang Merah,22.42,4.9,Ringan,30295
+2026-02-02,2,0,Gembileme,Papua Pegunungan,Tomat,22.42,4.9,Ringan,17733
+2026-02-03,2,1,Gembileme,Papua Pegunungan,Cabai Rawit,22.59,0.9,Ringan,37262
+2026-02-03,2,1,Gembileme,Papua Pegunungan,Bawang Merah,22.59,0.9,Ringan,29897
+2026-02-03,2,1,Gembileme,Papua Pegunungan,Tomat,22.59,0.9,Ringan,16070
+2026-02-04,2,2,Gembileme,Papua Pegunungan,Cabai Rawit,22.68,3.3,Ringan,37924
+2026-02-04,2,2,Gembileme,Papua Pegunungan,Bawang Merah,22.68,3.3,Ringan,30690
+2026-02-04,2,2,Gembileme,Papua Pegunungan,Tomat,22.68,3.3,Ringan,17300
+2026-02-05,2,3,Gembileme,Papua Pegunungan,Cabai Rawit,22.89,5.6,Ringan,37927
+2026-02-05,2,3,Gembileme,Papua Pegunungan,Bawang Merah,22.89,5.6,Ringan,29259
+2026-02-05,2,3,Gembileme,Papua Pegunungan,Tomat,22.89,5.6,Ringan,16597
+2026-02-06,2,4,Gembileme,Papua Pegunungan,Cabai Rawit,23.07,2.6,Ringan,36770
+2026-02-06,2,4,Gembileme,Papua Pegunungan,Bawang Merah,23.07,2.6,Ringan,29846
+2026-02-06,2,4,Gembileme,Papua Pegunungan,Tomat,23.07,2.6,Ringan,16244
+2026-02-07,2,5,Gembileme,Papua Pegunungan,Cabai Rawit,22.65,2.1,Ringan,36881
+2026-02-07,2,5,Gembileme,Papua Pegunungan,Bawang Merah,22.65,2.1,Ringan,30486
+2026-02-07,2,5,Gembileme,Papua Pegunungan,Tomat,22.65,2.1,Ringan,16118
+2026-02-08,2,6,Gembileme,Papua Pegunungan,Cabai Rawit,22.97,1.2,Ringan,37348
+2026-02-08,2,6,Gembileme,Papua Pegunungan,Bawang Merah,22.97,1.2,Ringan,29111
+2026-02-08,2,6,Gembileme,Papua Pegunungan,Tomat,22.97,1.2,Ringan,16407
+2026-02-09,2,0,Gembileme,Papua Pegunungan,Cabai Rawit,22.22,4.3,Ringan,37963
+2026-02-09,2,0,Gembileme,Papua Pegunungan,Bawang Merah,22.22,4.3,Ringan,29411
+2026-02-09,2,0,Gembileme,Papua Pegunungan,Tomat,22.22,4.3,Ringan,17545
+2026-02-10,2,1,Gembileme,Papua Pegunungan,Cabai Rawit,22.39,2.2,Ringan,36531
+2026-02-10,2,1,Gembileme,Papua Pegunungan,Bawang Merah,22.39,2.2,Ringan,30067
+2026-02-10,2,1,Gembileme,Papua Pegunungan,Tomat,22.39,2.2,Ringan,17085
+2026-02-11,2,2,Gembileme,Papua Pegunungan,Cabai Rawit,23.41,4.3,Ringan,36450
+2026-02-11,2,2,Gembileme,Papua Pegunungan,Bawang Merah,23.41,4.3,Ringan,30491
+2026-02-11,2,2,Gembileme,Papua Pegunungan,Tomat,23.41,4.3,Ringan,17348
+2026-02-12,2,3,Gembileme,Papua Pegunungan,Cabai Rawit,22.81,15.5,Lebat,41618
+2026-02-12,2,3,Gembileme,Papua Pegunungan,Bawang Merah,22.81,15.5,Lebat,35419
+2026-02-12,2,3,Gembileme,Papua Pegunungan,Tomat,22.81,15.5,Lebat,22067
+2026-02-13,2,4,Gembileme,Papua Pegunungan,Cabai Rawit,22.75,4.0,Ringan,36294
+2026-02-13,2,4,Gembileme,Papua Pegunungan,Bawang Merah,22.75,4.0,Ringan,29162
+2026-02-13,2,4,Gembileme,Papua Pegunungan,Tomat,22.75,4.0,Ringan,16334
+2026-02-14,2,5,Gembileme,Papua Pegunungan,Cabai Rawit,23.37,2.7,Ringan,37376
+2026-02-14,2,5,Gembileme,Papua Pegunungan,Bawang Merah,23.37,2.7,Ringan,30261
+2026-02-14,2,5,Gembileme,Papua Pegunungan,Tomat,23.37,2.7,Ringan,17513
+2026-02-15,2,6,Gembileme,Papua Pegunungan,Cabai Rawit,23.23,2.4,Ringan,37254
+2026-02-15,2,6,Gembileme,Papua Pegunungan,Bawang Merah,23.23,2.4,Ringan,30180
+2026-02-15,2,6,Gembileme,Papua Pegunungan,Tomat,23.23,2.4,Ringan,17780
+2026-02-16,2,0,Gembileme,Papua Pegunungan,Cabai Rawit,22.87,3.7,Ringan,36285
+2026-02-16,2,0,Gembileme,Papua Pegunungan,Bawang Merah,22.87,3.7,Ringan,29281
+2026-02-16,2,0,Gembileme,Papua Pegunungan,Tomat,22.87,3.7,Ringan,16445
+2026-02-17,2,1,Gembileme,Papua Pegunungan,Cabai Rawit,23.54,8.0,Ringan,36446
+2026-02-17,2,1,Gembileme,Papua Pegunungan,Bawang Merah,23.54,8.0,Ringan,30848
+2026-02-17,2,1,Gembileme,Papua Pegunungan,Tomat,23.54,8.0,Ringan,16640
+2026-02-18,2,2,Gembileme,Papua Pegunungan,Cabai Rawit,22.35,2.7,Ringan,36201
+2026-02-18,2,2,Gembileme,Papua Pegunungan,Bawang Merah,22.35,2.7,Ringan,30896
+2026-02-18,2,2,Gembileme,Papua Pegunungan,Tomat,22.35,2.7,Ringan,16807
+2026-02-19,2,3,Gembileme,Papua Pegunungan,Cabai Rawit,21.96,5.7,Ringan,36942
+2026-02-19,2,3,Gembileme,Papua Pegunungan,Bawang Merah,21.96,5.7,Ringan,29543
+2026-02-19,2,3,Gembileme,Papua Pegunungan,Tomat,21.96,5.7,Ringan,17330
+2026-02-20,2,4,Gembileme,Papua Pegunungan,Cabai Rawit,22.22,4.3,Ringan,36892
+2026-02-20,2,4,Gembileme,Papua Pegunungan,Bawang Merah,22.22,4.3,Ringan,30449
+2026-02-20,2,4,Gembileme,Papua Pegunungan,Tomat,22.22,4.3,Ringan,17328
+2026-02-21,2,5,Gembileme,Papua Pegunungan,Cabai Rawit,22.96,1.8,Ringan,36427
+2026-02-21,2,5,Gembileme,Papua Pegunungan,Bawang Merah,22.96,1.8,Ringan,29247
+2026-02-21,2,5,Gembileme,Papua Pegunungan,Tomat,22.96,1.8,Ringan,16878
+2026-02-22,2,6,Gembileme,Papua Pegunungan,Cabai Rawit,22.57,9.2,Ringan,36706
+2026-02-22,2,6,Gembileme,Papua Pegunungan,Bawang Merah,22.57,9.2,Ringan,29084
+2026-02-22,2,6,Gembileme,Papua Pegunungan,Tomat,22.57,9.2,Ringan,16870
+2026-02-23,2,0,Gembileme,Papua Pegunungan,Cabai Rawit,21.86,12.4,Lebat,40262
+2026-02-23,2,0,Gembileme,Papua Pegunungan,Bawang Merah,21.86,12.4,Lebat,34626
+2026-02-23,2,0,Gembileme,Papua Pegunungan,Tomat,21.86,12.4,Lebat,22228
+2026-02-24,2,1,Gembileme,Papua Pegunungan,Cabai Rawit,23.08,2.0,Ringan,36644
+2026-02-24,2,1,Gembileme,Papua Pegunungan,Bawang Merah,23.08,2.0,Ringan,29266
+2026-02-24,2,1,Gembileme,Papua Pegunungan,Tomat,23.08,2.0,Ringan,16896
+2026-02-25,2,2,Gembileme,Papua Pegunungan,Cabai Rawit,23.8,0.6,Ringan,36273
+2026-02-25,2,2,Gembileme,Papua Pegunungan,Bawang Merah,23.8,0.6,Ringan,29521
+2026-02-25,2,2,Gembileme,Papua Pegunungan,Tomat,23.8,0.6,Ringan,16864
+2026-02-26,2,3,Gembileme,Papua Pegunungan,Cabai Rawit,23.37,0.5,Ringan,36773
+2026-02-26,2,3,Gembileme,Papua Pegunungan,Bawang Merah,23.37,0.5,Ringan,29592
+2026-02-26,2,3,Gembileme,Papua Pegunungan,Tomat,23.37,0.5,Ringan,17912
+2026-02-27,2,4,Gembileme,Papua Pegunungan,Cabai Rawit,22.68,2.0,Ringan,37153
+2026-02-27,2,4,Gembileme,Papua Pegunungan,Bawang Merah,22.68,2.0,Ringan,29533
+2026-02-27,2,4,Gembileme,Papua Pegunungan,Tomat,22.68,2.0,Ringan,17767
+2026-02-28,2,5,Gembileme,Papua Pegunungan,Cabai Rawit,22.72,12.9,Lebat,42535
+2026-02-28,2,5,Gembileme,Papua Pegunungan,Bawang Merah,22.72,12.9,Lebat,34261
+2026-02-28,2,5,Gembileme,Papua Pegunungan,Tomat,22.72,12.9,Lebat,22050
+2026-03-01,3,6,Gembileme,Papua Pegunungan,Cabai Rawit,23.18,2.3,Ringan,36080
+2026-03-01,3,6,Gembileme,Papua Pegunungan,Bawang Merah,23.18,2.3,Ringan,29635
+2026-03-01,3,6,Gembileme,Papua Pegunungan,Tomat,23.18,2.3,Ringan,16815
+2026-03-02,3,0,Gembileme,Papua Pegunungan,Cabai Rawit,23.11,11.9,Lebat,42423
+2026-03-02,3,0,Gembileme,Papua Pegunungan,Bawang Merah,23.11,11.9,Lebat,35979
+2026-03-02,3,0,Gembileme,Papua Pegunungan,Tomat,23.11,11.9,Lebat,20092
+2026-03-03,3,1,Gembileme,Papua Pegunungan,Cabai Rawit,22.71,25.1,Lebat,40052
+2026-03-03,3,1,Gembileme,Papua Pegunungan,Bawang Merah,22.71,25.1,Lebat,35220
+2026-03-03,3,1,Gembileme,Papua Pegunungan,Tomat,22.71,25.1,Lebat,21854
+2026-03-04,3,2,Gembileme,Papua Pegunungan,Cabai Rawit,22.73,9.2,Ringan,37788
+2026-03-04,3,2,Gembileme,Papua Pegunungan,Bawang Merah,22.73,9.2,Ringan,30421
+2026-03-04,3,2,Gembileme,Papua Pegunungan,Tomat,22.73,9.2,Ringan,17800
+2026-03-05,3,3,Gembileme,Papua Pegunungan,Cabai Rawit,23.08,3.5,Ringan,37996
+2026-03-05,3,3,Gembileme,Papua Pegunungan,Bawang Merah,23.08,3.5,Ringan,29806
+2026-03-05,3,3,Gembileme,Papua Pegunungan,Tomat,23.08,3.5,Ringan,17712
+2026-03-06,3,4,Gembileme,Papua Pegunungan,Cabai Rawit,22.43,9.2,Ringan,37010
+2026-03-06,3,4,Gembileme,Papua Pegunungan,Bawang Merah,22.43,9.2,Ringan,29391
+2026-03-06,3,4,Gembileme,Papua Pegunungan,Tomat,22.43,9.2,Ringan,17867
+2026-03-07,3,5,Gembileme,Papua Pegunungan,Cabai Rawit,22.28,10.3,Lebat,42072
+2026-03-07,3,5,Gembileme,Papua Pegunungan,Bawang Merah,22.28,10.3,Lebat,35506
+2026-03-07,3,5,Gembileme,Papua Pegunungan,Tomat,22.28,10.3,Lebat,21515
+2026-03-08,3,6,Gembileme,Papua Pegunungan,Cabai Rawit,21.96,9.8,Ringan,36587
+2026-03-08,3,6,Gembileme,Papua Pegunungan,Bawang Merah,21.96,9.8,Ringan,29483
+2026-03-08,3,6,Gembileme,Papua Pegunungan,Tomat,21.96,9.8,Ringan,17851
+2026-03-09,3,0,Gembileme,Papua Pegunungan,Cabai Rawit,22.74,6.6,Ringan,36548
+2026-03-09,3,0,Gembileme,Papua Pegunungan,Bawang Merah,22.74,6.6,Ringan,29301
+2026-03-09,3,0,Gembileme,Papua Pegunungan,Tomat,22.74,6.6,Ringan,16050
+2026-03-10,3,1,Gembileme,Papua Pegunungan,Cabai Rawit,23.92,0.0,Cerah,34046
+2026-03-10,3,1,Gembileme,Papua Pegunungan,Bawang Merah,23.92,0.0,Cerah,26545
+2026-03-10,3,1,Gembileme,Papua Pegunungan,Tomat,23.92,0.0,Cerah,13315
+2026-03-11,3,2,Gembileme,Papua Pegunungan,Cabai Rawit,24.03,0.2,Ringan,37940
+2026-03-11,3,2,Gembileme,Papua Pegunungan,Bawang Merah,24.03,0.2,Ringan,29459
+2026-03-11,3,2,Gembileme,Papua Pegunungan,Tomat,24.03,0.2,Ringan,16722
+2026-03-12,3,3,Gembileme,Papua Pegunungan,Cabai Rawit,24.04,0.4,Ringan,37724
+2026-03-12,3,3,Gembileme,Papua Pegunungan,Bawang Merah,24.04,0.4,Ringan,30377
+2026-03-12,3,3,Gembileme,Papua Pegunungan,Tomat,24.04,0.4,Ringan,17170
+2026-03-13,3,4,Gembileme,Papua Pegunungan,Cabai Rawit,23.79,0.3,Ringan,36841
+2026-03-13,3,4,Gembileme,Papua Pegunungan,Bawang Merah,23.79,0.3,Ringan,29404
+2026-03-13,3,4,Gembileme,Papua Pegunungan,Tomat,23.79,0.3,Ringan,16488
+2026-03-14,3,5,Gembileme,Papua Pegunungan,Cabai Rawit,23.19,1.8,Ringan,37871
+2026-03-14,3,5,Gembileme,Papua Pegunungan,Bawang Merah,23.19,1.8,Ringan,30712
+2026-03-14,3,5,Gembileme,Papua Pegunungan,Tomat,23.19,1.8,Ringan,16980
+2026-03-15,3,6,Gembileme,Papua Pegunungan,Cabai Rawit,23.9,0.0,Cerah,34301
+2026-03-15,3,6,Gembileme,Papua Pegunungan,Bawang Merah,23.9,0.0,Cerah,27893
+2026-03-15,3,6,Gembileme,Papua Pegunungan,Tomat,23.9,0.0,Cerah,13365
+2026-03-16,3,0,Gembileme,Papua Pegunungan,Cabai Rawit,24.38,0.1,Ringan,37737
+2026-03-16,3,0,Gembileme,Papua Pegunungan,Bawang Merah,24.38,0.1,Ringan,30018
+2026-03-16,3,0,Gembileme,Papua Pegunungan,Tomat,24.38,0.1,Ringan,16912
+2026-03-17,3,1,Gembileme,Papua Pegunungan,Cabai Rawit,24.82,0.4,Ringan,36757
+2026-03-17,3,1,Gembileme,Papua Pegunungan,Bawang Merah,24.82,0.4,Ringan,29708
+2026-03-17,3,1,Gembileme,Papua Pegunungan,Tomat,24.82,0.4,Ringan,16605
+2026-03-18,3,2,Gembileme,Papua Pegunungan,Cabai Rawit,24.83,0.4,Ringan,36411
+2026-03-18,3,2,Gembileme,Papua Pegunungan,Bawang Merah,24.83,0.4,Ringan,29256
+2026-03-18,3,2,Gembileme,Papua Pegunungan,Tomat,24.83,0.4,Ringan,16276
+2026-03-19,3,3,Gembileme,Papua Pegunungan,Cabai Rawit,23.97,0.2,Ringan,36234
+2026-03-19,3,3,Gembileme,Papua Pegunungan,Bawang Merah,23.97,0.2,Ringan,30225
+2026-03-19,3,3,Gembileme,Papua Pegunungan,Tomat,23.97,0.2,Ringan,16596
+2026-03-20,3,4,Gembileme,Papua Pegunungan,Cabai Rawit,23.95,2.5,Ringan,36399
+2026-03-20,3,4,Gembileme,Papua Pegunungan,Bawang Merah,23.95,2.5,Ringan,30555
+2026-03-20,3,4,Gembileme,Papua Pegunungan,Tomat,23.95,2.5,Ringan,16296
+2026-03-21,3,5,Gembileme,Papua Pegunungan,Cabai Rawit,23.68,2.0,Ringan,37647
+2026-03-21,3,5,Gembileme,Papua Pegunungan,Bawang Merah,23.68,2.0,Ringan,29003
+2026-03-21,3,5,Gembileme,Papua Pegunungan,Tomat,23.68,2.0,Ringan,17295
+2026-03-22,3,6,Gembileme,Papua Pegunungan,Cabai Rawit,23.85,0.6,Ringan,37673
+2026-03-22,3,6,Gembileme,Papua Pegunungan,Bawang Merah,23.85,0.6,Ringan,29387
+2026-03-22,3,6,Gembileme,Papua Pegunungan,Tomat,23.85,0.6,Ringan,17464
+2026-03-23,3,0,Gembileme,Papua Pegunungan,Cabai Rawit,23.68,0.6,Ringan,37667
+2026-03-23,3,0,Gembileme,Papua Pegunungan,Bawang Merah,23.68,0.6,Ringan,29014
+2026-03-23,3,0,Gembileme,Papua Pegunungan,Tomat,23.68,0.6,Ringan,16987
+2026-03-24,3,1,Gembileme,Papua Pegunungan,Cabai Rawit,23.81,0.9,Ringan,36020
+2026-03-24,3,1,Gembileme,Papua Pegunungan,Bawang Merah,23.81,0.9,Ringan,29130
+2026-03-24,3,1,Gembileme,Papua Pegunungan,Tomat,23.81,0.9,Ringan,16828
+2026-03-25,3,2,Gembileme,Papua Pegunungan,Cabai Rawit,23.6,3.7,Ringan,37260
+2026-03-25,3,2,Gembileme,Papua Pegunungan,Bawang Merah,23.6,3.7,Ringan,29256
+2026-03-25,3,2,Gembileme,Papua Pegunungan,Tomat,23.6,3.7,Ringan,16391
+2026-03-26,3,3,Gembileme,Papua Pegunungan,Cabai Rawit,23.0,2.0,Ringan,36236
+2026-03-26,3,3,Gembileme,Papua Pegunungan,Bawang Merah,23.0,2.0,Ringan,30565
+2026-03-26,3,3,Gembileme,Papua Pegunungan,Tomat,23.0,2.0,Ringan,17510
+2026-03-27,3,4,Gembileme,Papua Pegunungan,Cabai Rawit,22.7,8.1,Ringan,36025
+2026-03-27,3,4,Gembileme,Papua Pegunungan,Bawang Merah,22.7,8.1,Ringan,29511
+2026-03-27,3,4,Gembileme,Papua Pegunungan,Tomat,22.7,8.1,Ringan,17337
+2026-03-28,3,5,Gembileme,Papua Pegunungan,Cabai Rawit,22.71,18.3,Lebat,41024
+2026-03-28,3,5,Gembileme,Papua Pegunungan,Bawang Merah,22.71,18.3,Lebat,35352
+2026-03-28,3,5,Gembileme,Papua Pegunungan,Tomat,22.71,18.3,Lebat,21607
+2026-03-29,3,6,Gembileme,Papua Pegunungan,Cabai Rawit,23.07,13.1,Lebat,41212
+2026-03-29,3,6,Gembileme,Papua Pegunungan,Bawang Merah,23.07,13.1,Lebat,35277
+2026-03-29,3,6,Gembileme,Papua Pegunungan,Tomat,23.07,13.1,Lebat,21653
+2026-03-30,3,0,Gembileme,Papua Pegunungan,Cabai Rawit,22.82,0.9,Ringan,36407
+2026-03-30,3,0,Gembileme,Papua Pegunungan,Bawang Merah,22.82,0.9,Ringan,29264
+2026-03-30,3,0,Gembileme,Papua Pegunungan,Tomat,22.82,0.9,Ringan,16041
+2026-03-31,3,1,Gembileme,Papua Pegunungan,Cabai Rawit,23.25,2.7,Ringan,37593
+2026-03-31,3,1,Gembileme,Papua Pegunungan,Bawang Merah,23.25,2.7,Ringan,30457
+2026-03-31,3,1,Gembileme,Papua Pegunungan,Tomat,23.25,2.7,Ringan,16091
+2026-04-01,4,2,Gembileme,Papua Pegunungan,Cabai Rawit,22.64,13.9,Lebat,41737
+2026-04-01,4,2,Gembileme,Papua Pegunungan,Bawang Merah,22.64,13.9,Lebat,35479
+2026-04-01,4,2,Gembileme,Papua Pegunungan,Tomat,22.64,13.9,Lebat,22266
+2026-04-02,4,3,Gembileme,Papua Pegunungan,Cabai Rawit,22.8,20.2,Lebat,40007
+2026-04-02,4,3,Gembileme,Papua Pegunungan,Bawang Merah,22.8,20.2,Lebat,33140
+2026-04-02,4,3,Gembileme,Papua Pegunungan,Tomat,22.8,20.2,Lebat,20859
+2026-04-03,4,4,Gembileme,Papua Pegunungan,Cabai Rawit,24.07,2.9,Ringan,36268
+2026-04-03,4,4,Gembileme,Papua Pegunungan,Bawang Merah,24.07,2.9,Ringan,30824
+2026-04-03,4,4,Gembileme,Papua Pegunungan,Tomat,24.07,2.9,Ringan,17571
+2026-04-04,4,5,Gembileme,Papua Pegunungan,Cabai Rawit,23.44,9.2,Ringan,36739
+2026-04-04,4,5,Gembileme,Papua Pegunungan,Bawang Merah,23.44,9.2,Ringan,29169
+2026-04-04,4,5,Gembileme,Papua Pegunungan,Tomat,23.44,9.2,Ringan,16048
+2026-04-05,4,6,Gembileme,Papua Pegunungan,Cabai Rawit,23.26,6.3,Ringan,36932
+2026-04-05,4,6,Gembileme,Papua Pegunungan,Bawang Merah,23.26,6.3,Ringan,29379
+2026-04-05,4,6,Gembileme,Papua Pegunungan,Tomat,23.26,6.3,Ringan,17831
+2026-04-06,4,0,Gembileme,Papua Pegunungan,Cabai Rawit,22.93,12.5,Lebat,41437
+2026-04-06,4,0,Gembileme,Papua Pegunungan,Bawang Merah,22.93,12.5,Lebat,34859
+2026-04-06,4,0,Gembileme,Papua Pegunungan,Tomat,22.93,12.5,Lebat,22047
+2026-04-07,4,1,Gembileme,Papua Pegunungan,Cabai Rawit,22.55,31.8,Lebat,41577
+2026-04-07,4,1,Gembileme,Papua Pegunungan,Bawang Merah,22.55,31.8,Lebat,33437
+2026-04-07,4,1,Gembileme,Papua Pegunungan,Tomat,22.55,31.8,Lebat,22535
+2026-04-08,4,2,Gembileme,Papua Pegunungan,Cabai Rawit,23.02,17.8,Lebat,42026
+2026-04-08,4,2,Gembileme,Papua Pegunungan,Bawang Merah,23.02,17.8,Lebat,35145
+2026-04-08,4,2,Gembileme,Papua Pegunungan,Tomat,23.02,17.8,Lebat,22628
+2026-04-09,4,3,Gembileme,Papua Pegunungan,Cabai Rawit,22.86,8.5,Ringan,37979
+2026-04-09,4,3,Gembileme,Papua Pegunungan,Bawang Merah,22.86,8.5,Ringan,29990
+2026-04-09,4,3,Gembileme,Papua Pegunungan,Tomat,22.86,8.5,Ringan,17686
+2026-04-10,4,4,Gembileme,Papua Pegunungan,Cabai Rawit,23.22,24.6,Lebat,41944
+2026-04-10,4,4,Gembileme,Papua Pegunungan,Bawang Merah,23.22,24.6,Lebat,35658
+2026-04-10,4,4,Gembileme,Papua Pegunungan,Tomat,23.22,24.6,Lebat,21724
+2026-04-11,4,5,Gembileme,Papua Pegunungan,Cabai Rawit,23.7,22.5,Lebat,40107
+2026-04-11,4,5,Gembileme,Papua Pegunungan,Bawang Merah,23.7,22.5,Lebat,34781
+2026-04-11,4,5,Gembileme,Papua Pegunungan,Tomat,23.7,22.5,Lebat,21406
+2026-04-12,4,6,Gembileme,Papua Pegunungan,Cabai Rawit,23.56,8.2,Ringan,37317
+2026-04-12,4,6,Gembileme,Papua Pegunungan,Bawang Merah,23.56,8.2,Ringan,30605
+2026-04-12,4,6,Gembileme,Papua Pegunungan,Tomat,23.56,8.2,Ringan,17713
+2026-04-13,4,0,Gembileme,Papua Pegunungan,Cabai Rawit,24.38,0.2,Ringan,36141
+2026-04-13,4,0,Gembileme,Papua Pegunungan,Bawang Merah,24.38,0.2,Ringan,29447
+2026-04-13,4,0,Gembileme,Papua Pegunungan,Tomat,24.38,0.2,Ringan,16418
+2026-04-14,4,1,Gembileme,Papua Pegunungan,Cabai Rawit,23.6,7.7,Ringan,36005
+2026-04-14,4,1,Gembileme,Papua Pegunungan,Bawang Merah,23.6,7.7,Ringan,30130
+2026-04-14,4,1,Gembileme,Papua Pegunungan,Tomat,23.6,7.7,Ringan,17348
+2026-04-15,4,2,Gembileme,Papua Pegunungan,Cabai Rawit,22.87,12.4,Lebat,42524
+2026-04-15,4,2,Gembileme,Papua Pegunungan,Bawang Merah,22.87,12.4,Lebat,33404
+2026-04-15,4,2,Gembileme,Papua Pegunungan,Tomat,22.87,12.4,Lebat,20190
+2026-04-16,4,3,Gembileme,Papua Pegunungan,Cabai Rawit,23.91,3.2,Ringan,36195
+2026-04-16,4,3,Gembileme,Papua Pegunungan,Bawang Merah,23.91,3.2,Ringan,30976
+2026-04-16,4,3,Gembileme,Papua Pegunungan,Tomat,23.91,3.2,Ringan,16822
+2026-04-17,4,4,Gembileme,Papua Pegunungan,Cabai Rawit,23.06,13.9,Lebat,41264
+2026-04-17,4,4,Gembileme,Papua Pegunungan,Bawang Merah,23.06,13.9,Lebat,35692
+2026-04-17,4,4,Gembileme,Papua Pegunungan,Tomat,23.06,13.9,Lebat,22438
+2026-04-18,4,5,Gembileme,Papua Pegunungan,Cabai Rawit,23.6,1.3,Ringan,36060
+2026-04-18,4,5,Gembileme,Papua Pegunungan,Bawang Merah,23.6,1.3,Ringan,30235
+2026-04-18,4,5,Gembileme,Papua Pegunungan,Tomat,23.6,1.3,Ringan,16390
+2026-04-19,4,6,Gembileme,Papua Pegunungan,Cabai Rawit,23.81,0.4,Ringan,36785
+2026-04-19,4,6,Gembileme,Papua Pegunungan,Bawang Merah,23.81,0.4,Ringan,29601
+2026-04-19,4,6,Gembileme,Papua Pegunungan,Tomat,23.81,0.4,Ringan,16309
+2026-04-20,4,0,Gembileme,Papua Pegunungan,Cabai Rawit,24.17,1.5,Ringan,36838
+2026-04-20,4,0,Gembileme,Papua Pegunungan,Bawang Merah,24.17,1.5,Ringan,30979
+2026-04-20,4,0,Gembileme,Papua Pegunungan,Tomat,24.17,1.5,Ringan,16426
+2026-04-21,4,1,Gembileme,Papua Pegunungan,Cabai Rawit,23.83,3.4,Ringan,36091
+2026-04-21,4,1,Gembileme,Papua Pegunungan,Bawang Merah,23.83,3.4,Ringan,29692
+2026-04-21,4,1,Gembileme,Papua Pegunungan,Tomat,23.83,3.4,Ringan,17351
+2026-04-22,4,2,Gembileme,Papua Pegunungan,Cabai Rawit,23.76,4.7,Ringan,36022
+2026-04-22,4,2,Gembileme,Papua Pegunungan,Bawang Merah,23.76,4.7,Ringan,30177
+2026-04-22,4,2,Gembileme,Papua Pegunungan,Tomat,23.76,4.7,Ringan,16320
+2026-04-23,4,3,Gembileme,Papua Pegunungan,Cabai Rawit,24.08,16.5,Lebat,42383
+2026-04-23,4,3,Gembileme,Papua Pegunungan,Bawang Merah,24.08,16.5,Lebat,35910
+2026-04-23,4,3,Gembileme,Papua Pegunungan,Tomat,24.08,16.5,Lebat,22401
+2026-01-23,1,4,Sukamaju,Gorontalo,Cabai Rawit,21.81,17.8,Lebat,42482
+2026-01-23,1,4,Sukamaju,Gorontalo,Bawang Merah,21.81,17.8,Lebat,34937
+2026-01-23,1,4,Sukamaju,Gorontalo,Tomat,21.81,17.8,Lebat,21151
+2026-01-24,1,5,Sukamaju,Gorontalo,Cabai Rawit,21.61,4.2,Ringan,37026
+2026-01-24,1,5,Sukamaju,Gorontalo,Bawang Merah,21.61,4.2,Ringan,29580
+2026-01-24,1,5,Sukamaju,Gorontalo,Tomat,21.61,4.2,Ringan,16289
+2026-01-25,1,6,Sukamaju,Gorontalo,Cabai Rawit,22.56,0.4,Ringan,37878
+2026-01-25,1,6,Sukamaju,Gorontalo,Bawang Merah,22.56,0.4,Ringan,30895
+2026-01-25,1,6,Sukamaju,Gorontalo,Tomat,22.56,0.4,Ringan,16011
+2026-01-26,1,0,Sukamaju,Gorontalo,Cabai Rawit,22.91,0.9,Ringan,36970
+2026-01-26,1,0,Sukamaju,Gorontalo,Bawang Merah,22.91,0.9,Ringan,29028
+2026-01-26,1,0,Sukamaju,Gorontalo,Tomat,22.91,0.9,Ringan,16415
+2026-01-27,1,1,Sukamaju,Gorontalo,Cabai Rawit,22.48,1.1,Ringan,36416
+2026-01-27,1,1,Sukamaju,Gorontalo,Bawang Merah,22.48,1.1,Ringan,30107
+2026-01-27,1,1,Sukamaju,Gorontalo,Tomat,22.48,1.1,Ringan,17376
+2026-01-28,1,2,Sukamaju,Gorontalo,Cabai Rawit,21.82,30.6,Lebat,42264
+2026-01-28,1,2,Sukamaju,Gorontalo,Bawang Merah,21.82,30.6,Lebat,35936
+2026-01-28,1,2,Sukamaju,Gorontalo,Tomat,21.82,30.6,Lebat,22306
+2026-01-29,1,3,Sukamaju,Gorontalo,Cabai Rawit,21.89,20.2,Lebat,40854
+2026-01-29,1,3,Sukamaju,Gorontalo,Bawang Merah,21.89,20.2,Lebat,34852
+2026-01-29,1,3,Sukamaju,Gorontalo,Tomat,21.89,20.2,Lebat,22256
+2026-01-30,1,4,Sukamaju,Gorontalo,Cabai Rawit,22.55,2.3,Ringan,37680
+2026-01-30,1,4,Sukamaju,Gorontalo,Bawang Merah,22.55,2.3,Ringan,29138
+2026-01-30,1,4,Sukamaju,Gorontalo,Tomat,22.55,2.3,Ringan,16819
+2026-01-31,1,5,Sukamaju,Gorontalo,Cabai Rawit,22.77,6.5,Ringan,37178
+2026-01-31,1,5,Sukamaju,Gorontalo,Bawang Merah,22.77,6.5,Ringan,30629
+2026-01-31,1,5,Sukamaju,Gorontalo,Tomat,22.77,6.5,Ringan,16683
+2026-02-01,2,6,Sukamaju,Gorontalo,Cabai Rawit,22.65,2.4,Ringan,37044
+2026-02-01,2,6,Sukamaju,Gorontalo,Bawang Merah,22.65,2.4,Ringan,30535
+2026-02-01,2,6,Sukamaju,Gorontalo,Tomat,22.65,2.4,Ringan,17660
+2026-02-02,2,0,Sukamaju,Gorontalo,Cabai Rawit,22.42,4.9,Ringan,37720
+2026-02-02,2,0,Sukamaju,Gorontalo,Bawang Merah,22.42,4.9,Ringan,30334
+2026-02-02,2,0,Sukamaju,Gorontalo,Tomat,22.42,4.9,Ringan,16990
+2026-02-03,2,1,Sukamaju,Gorontalo,Cabai Rawit,22.59,0.9,Ringan,36933
+2026-02-03,2,1,Sukamaju,Gorontalo,Bawang Merah,22.59,0.9,Ringan,30143
+2026-02-03,2,1,Sukamaju,Gorontalo,Tomat,22.59,0.9,Ringan,16362
+2026-02-04,2,2,Sukamaju,Gorontalo,Cabai Rawit,22.68,3.3,Ringan,36650
+2026-02-04,2,2,Sukamaju,Gorontalo,Bawang Merah,22.68,3.3,Ringan,30126
+2026-02-04,2,2,Sukamaju,Gorontalo,Tomat,22.68,3.3,Ringan,17827
+2026-02-05,2,3,Sukamaju,Gorontalo,Cabai Rawit,22.89,5.6,Ringan,37541
+2026-02-05,2,3,Sukamaju,Gorontalo,Bawang Merah,22.89,5.6,Ringan,29380
+2026-02-05,2,3,Sukamaju,Gorontalo,Tomat,22.89,5.6,Ringan,16160
+2026-02-06,2,4,Sukamaju,Gorontalo,Cabai Rawit,23.07,2.6,Ringan,37388
+2026-02-06,2,4,Sukamaju,Gorontalo,Bawang Merah,23.07,2.6,Ringan,30461
+2026-02-06,2,4,Sukamaju,Gorontalo,Tomat,23.07,2.6,Ringan,16918
+2026-02-07,2,5,Sukamaju,Gorontalo,Cabai Rawit,22.65,2.1,Ringan,37944
+2026-02-07,2,5,Sukamaju,Gorontalo,Bawang Merah,22.65,2.1,Ringan,29237
+2026-02-07,2,5,Sukamaju,Gorontalo,Tomat,22.65,2.1,Ringan,17382
+2026-02-08,2,6,Sukamaju,Gorontalo,Cabai Rawit,22.97,1.2,Ringan,36972
+2026-02-08,2,6,Sukamaju,Gorontalo,Bawang Merah,22.97,1.2,Ringan,30257
+2026-02-08,2,6,Sukamaju,Gorontalo,Tomat,22.97,1.2,Ringan,16610
+2026-02-09,2,0,Sukamaju,Gorontalo,Cabai Rawit,22.22,4.3,Ringan,37360
+2026-02-09,2,0,Sukamaju,Gorontalo,Bawang Merah,22.22,4.3,Ringan,29778
+2026-02-09,2,0,Sukamaju,Gorontalo,Tomat,22.22,4.3,Ringan,17413
+2026-02-10,2,1,Sukamaju,Gorontalo,Cabai Rawit,22.39,2.2,Ringan,36459
+2026-02-10,2,1,Sukamaju,Gorontalo,Bawang Merah,22.39,2.2,Ringan,30742
+2026-02-10,2,1,Sukamaju,Gorontalo,Tomat,22.39,2.2,Ringan,17739
+2026-02-11,2,2,Sukamaju,Gorontalo,Cabai Rawit,23.41,4.3,Ringan,36075
+2026-02-11,2,2,Sukamaju,Gorontalo,Bawang Merah,23.41,4.3,Ringan,29733
+2026-02-11,2,2,Sukamaju,Gorontalo,Tomat,23.41,4.3,Ringan,16576
+2026-02-12,2,3,Sukamaju,Gorontalo,Cabai Rawit,22.81,15.5,Lebat,40041
+2026-02-12,2,3,Sukamaju,Gorontalo,Bawang Merah,22.81,15.5,Lebat,33016
+2026-02-12,2,3,Sukamaju,Gorontalo,Tomat,22.81,15.5,Lebat,20863
+2026-02-13,2,4,Sukamaju,Gorontalo,Cabai Rawit,22.75,4.0,Ringan,37840
+2026-02-13,2,4,Sukamaju,Gorontalo,Bawang Merah,22.75,4.0,Ringan,30643
+2026-02-13,2,4,Sukamaju,Gorontalo,Tomat,22.75,4.0,Ringan,16373
+2026-02-14,2,5,Sukamaju,Gorontalo,Cabai Rawit,23.37,2.7,Ringan,37589
+2026-02-14,2,5,Sukamaju,Gorontalo,Bawang Merah,23.37,2.7,Ringan,30016
+2026-02-14,2,5,Sukamaju,Gorontalo,Tomat,23.37,2.7,Ringan,16727
+2026-02-15,2,6,Sukamaju,Gorontalo,Cabai Rawit,23.23,2.4,Ringan,36585
+2026-02-15,2,6,Sukamaju,Gorontalo,Bawang Merah,23.23,2.4,Ringan,29366
+2026-02-15,2,6,Sukamaju,Gorontalo,Tomat,23.23,2.4,Ringan,17242
+2026-02-16,2,0,Sukamaju,Gorontalo,Cabai Rawit,22.87,3.7,Ringan,37776
+2026-02-16,2,0,Sukamaju,Gorontalo,Bawang Merah,22.87,3.7,Ringan,29997
+2026-02-16,2,0,Sukamaju,Gorontalo,Tomat,22.87,3.7,Ringan,17885
+2026-02-17,2,1,Sukamaju,Gorontalo,Cabai Rawit,23.54,8.0,Ringan,37235
+2026-02-17,2,1,Sukamaju,Gorontalo,Bawang Merah,23.54,8.0,Ringan,29464
+2026-02-17,2,1,Sukamaju,Gorontalo,Tomat,23.54,8.0,Ringan,17480
+2026-02-18,2,2,Sukamaju,Gorontalo,Cabai Rawit,22.35,2.7,Ringan,36423
+2026-02-18,2,2,Sukamaju,Gorontalo,Bawang Merah,22.35,2.7,Ringan,30362
+2026-02-18,2,2,Sukamaju,Gorontalo,Tomat,22.35,2.7,Ringan,17172
+2026-02-19,2,3,Sukamaju,Gorontalo,Cabai Rawit,21.96,5.7,Ringan,36360
+2026-02-19,2,3,Sukamaju,Gorontalo,Bawang Merah,21.96,5.7,Ringan,30456
+2026-02-19,2,3,Sukamaju,Gorontalo,Tomat,21.96,5.7,Ringan,17124
+2026-02-20,2,4,Sukamaju,Gorontalo,Cabai Rawit,22.22,4.3,Ringan,37198
+2026-02-20,2,4,Sukamaju,Gorontalo,Bawang Merah,22.22,4.3,Ringan,29653
+2026-02-20,2,4,Sukamaju,Gorontalo,Tomat,22.22,4.3,Ringan,17073
+2026-02-21,2,5,Sukamaju,Gorontalo,Cabai Rawit,22.96,1.8,Ringan,36711
+2026-02-21,2,5,Sukamaju,Gorontalo,Bawang Merah,22.96,1.8,Ringan,29413
+2026-02-21,2,5,Sukamaju,Gorontalo,Tomat,22.96,1.8,Ringan,17207
+2026-02-22,2,6,Sukamaju,Gorontalo,Cabai Rawit,22.57,9.2,Ringan,36185
+2026-02-22,2,6,Sukamaju,Gorontalo,Bawang Merah,22.57,9.2,Ringan,30046
+2026-02-22,2,6,Sukamaju,Gorontalo,Tomat,22.57,9.2,Ringan,16984
+2026-02-23,2,0,Sukamaju,Gorontalo,Cabai Rawit,21.86,12.4,Lebat,41147
+2026-02-23,2,0,Sukamaju,Gorontalo,Bawang Merah,21.86,12.4,Lebat,33912
+2026-02-23,2,0,Sukamaju,Gorontalo,Tomat,21.86,12.4,Lebat,21249
+2026-02-24,2,1,Sukamaju,Gorontalo,Cabai Rawit,23.08,2.0,Ringan,36914
+2026-02-24,2,1,Sukamaju,Gorontalo,Bawang Merah,23.08,2.0,Ringan,30480
+2026-02-24,2,1,Sukamaju,Gorontalo,Tomat,23.08,2.0,Ringan,16557
+2026-02-25,2,2,Sukamaju,Gorontalo,Cabai Rawit,23.8,0.6,Ringan,37293
+2026-02-25,2,2,Sukamaju,Gorontalo,Bawang Merah,23.8,0.6,Ringan,29262
+2026-02-25,2,2,Sukamaju,Gorontalo,Tomat,23.8,0.6,Ringan,16077
+2026-02-26,2,3,Sukamaju,Gorontalo,Cabai Rawit,23.37,0.5,Ringan,37292
+2026-02-26,2,3,Sukamaju,Gorontalo,Bawang Merah,23.37,0.5,Ringan,29620
+2026-02-26,2,3,Sukamaju,Gorontalo,Tomat,23.37,0.5,Ringan,17199
+2026-02-27,2,4,Sukamaju,Gorontalo,Cabai Rawit,22.68,2.0,Ringan,36505
+2026-02-27,2,4,Sukamaju,Gorontalo,Bawang Merah,22.68,2.0,Ringan,29309
+2026-02-27,2,4,Sukamaju,Gorontalo,Tomat,22.68,2.0,Ringan,16695
+2026-02-28,2,5,Sukamaju,Gorontalo,Cabai Rawit,22.72,12.9,Lebat,42824
+2026-02-28,2,5,Sukamaju,Gorontalo,Bawang Merah,22.72,12.9,Lebat,35381
+2026-02-28,2,5,Sukamaju,Gorontalo,Tomat,22.72,12.9,Lebat,20739
+2026-03-01,3,6,Sukamaju,Gorontalo,Cabai Rawit,23.18,2.3,Ringan,37045
+2026-03-01,3,6,Sukamaju,Gorontalo,Bawang Merah,23.18,2.3,Ringan,29285
+2026-03-01,3,6,Sukamaju,Gorontalo,Tomat,23.18,2.3,Ringan,17727
+2026-03-02,3,0,Sukamaju,Gorontalo,Cabai Rawit,23.11,11.9,Lebat,40435
+2026-03-02,3,0,Sukamaju,Gorontalo,Bawang Merah,23.11,11.9,Lebat,34302
+2026-03-02,3,0,Sukamaju,Gorontalo,Tomat,23.11,11.9,Lebat,20991
+2026-03-03,3,1,Sukamaju,Gorontalo,Cabai Rawit,22.71,25.1,Lebat,41783
+2026-03-03,3,1,Sukamaju,Gorontalo,Bawang Merah,22.71,25.1,Lebat,35798
+2026-03-03,3,1,Sukamaju,Gorontalo,Tomat,22.71,25.1,Lebat,20850
+2026-03-04,3,2,Sukamaju,Gorontalo,Cabai Rawit,22.73,9.2,Ringan,37748
+2026-03-04,3,2,Sukamaju,Gorontalo,Bawang Merah,22.73,9.2,Ringan,30707
+2026-03-04,3,2,Sukamaju,Gorontalo,Tomat,22.73,9.2,Ringan,16637
+2026-03-05,3,3,Sukamaju,Gorontalo,Cabai Rawit,23.08,3.5,Ringan,36788
+2026-03-05,3,3,Sukamaju,Gorontalo,Bawang Merah,23.08,3.5,Ringan,30424
+2026-03-05,3,3,Sukamaju,Gorontalo,Tomat,23.08,3.5,Ringan,17649
+2026-03-06,3,4,Sukamaju,Gorontalo,Cabai Rawit,22.43,9.2,Ringan,37637
+2026-03-06,3,4,Sukamaju,Gorontalo,Bawang Merah,22.43,9.2,Ringan,30035
+2026-03-06,3,4,Sukamaju,Gorontalo,Tomat,22.43,9.2,Ringan,16390
+2026-03-07,3,5,Sukamaju,Gorontalo,Cabai Rawit,22.28,10.3,Lebat,40943
+2026-03-07,3,5,Sukamaju,Gorontalo,Bawang Merah,22.28,10.3,Lebat,34898
+2026-03-07,3,5,Sukamaju,Gorontalo,Tomat,22.28,10.3,Lebat,20874
+2026-03-08,3,6,Sukamaju,Gorontalo,Cabai Rawit,21.96,9.8,Ringan,36043
+2026-03-08,3,6,Sukamaju,Gorontalo,Bawang Merah,21.96,9.8,Ringan,30486
+2026-03-08,3,6,Sukamaju,Gorontalo,Tomat,21.96,9.8,Ringan,16941
+2026-03-09,3,0,Sukamaju,Gorontalo,Cabai Rawit,22.74,6.6,Ringan,37044
+2026-03-09,3,0,Sukamaju,Gorontalo,Bawang Merah,22.74,6.6,Ringan,30488
+2026-03-09,3,0,Sukamaju,Gorontalo,Tomat,22.74,6.6,Ringan,16663
+2026-03-10,3,1,Sukamaju,Gorontalo,Cabai Rawit,23.92,0.0,Cerah,34265
+2026-03-10,3,1,Sukamaju,Gorontalo,Bawang Merah,23.92,0.0,Cerah,26054
+2026-03-10,3,1,Sukamaju,Gorontalo,Tomat,23.92,0.0,Cerah,14781
+2026-03-11,3,2,Sukamaju,Gorontalo,Cabai Rawit,24.03,0.2,Ringan,36424
+2026-03-11,3,2,Sukamaju,Gorontalo,Bawang Merah,24.03,0.2,Ringan,29338
+2026-03-11,3,2,Sukamaju,Gorontalo,Tomat,24.03,0.2,Ringan,16427
+2026-03-12,3,3,Sukamaju,Gorontalo,Cabai Rawit,24.04,0.4,Ringan,37084
+2026-03-12,3,3,Sukamaju,Gorontalo,Bawang Merah,24.04,0.4,Ringan,29452
+2026-03-12,3,3,Sukamaju,Gorontalo,Tomat,24.04,0.4,Ringan,17528
+2026-03-13,3,4,Sukamaju,Gorontalo,Cabai Rawit,23.79,0.3,Ringan,37244
+2026-03-13,3,4,Sukamaju,Gorontalo,Bawang Merah,23.79,0.3,Ringan,30531
+2026-03-13,3,4,Sukamaju,Gorontalo,Tomat,23.79,0.3,Ringan,16714
+2026-03-14,3,5,Sukamaju,Gorontalo,Cabai Rawit,23.19,1.8,Ringan,36552
+2026-03-14,3,5,Sukamaju,Gorontalo,Bawang Merah,23.19,1.8,Ringan,30058
+2026-03-14,3,5,Sukamaju,Gorontalo,Tomat,23.19,1.8,Ringan,16948
+2026-03-15,3,6,Sukamaju,Gorontalo,Cabai Rawit,23.9,0.0,Cerah,33369
+2026-03-15,3,6,Sukamaju,Gorontalo,Bawang Merah,23.9,0.0,Cerah,26082
+2026-03-15,3,6,Sukamaju,Gorontalo,Tomat,23.9,0.0,Cerah,14356
+2026-03-16,3,0,Sukamaju,Gorontalo,Cabai Rawit,24.38,0.1,Ringan,36682
+2026-03-16,3,0,Sukamaju,Gorontalo,Bawang Merah,24.38,0.1,Ringan,30423
+2026-03-16,3,0,Sukamaju,Gorontalo,Tomat,24.38,0.1,Ringan,16190
+2026-03-17,3,1,Sukamaju,Gorontalo,Cabai Rawit,24.82,0.4,Ringan,36543
+2026-03-17,3,1,Sukamaju,Gorontalo,Bawang Merah,24.82,0.4,Ringan,29515
+2026-03-17,3,1,Sukamaju,Gorontalo,Tomat,24.82,0.4,Ringan,16869
+2026-03-18,3,2,Sukamaju,Gorontalo,Cabai Rawit,24.83,0.4,Ringan,37149
+2026-03-18,3,2,Sukamaju,Gorontalo,Bawang Merah,24.83,0.4,Ringan,30588
+2026-03-18,3,2,Sukamaju,Gorontalo,Tomat,24.83,0.4,Ringan,17706
+2026-03-19,3,3,Sukamaju,Gorontalo,Cabai Rawit,23.97,0.2,Ringan,36464
+2026-03-19,3,3,Sukamaju,Gorontalo,Bawang Merah,23.97,0.2,Ringan,30526
+2026-03-19,3,3,Sukamaju,Gorontalo,Tomat,23.97,0.2,Ringan,17479
+2026-03-20,3,4,Sukamaju,Gorontalo,Cabai Rawit,23.95,2.5,Ringan,37941
+2026-03-20,3,4,Sukamaju,Gorontalo,Bawang Merah,23.95,2.5,Ringan,30926
+2026-03-20,3,4,Sukamaju,Gorontalo,Tomat,23.95,2.5,Ringan,17080
+2026-03-21,3,5,Sukamaju,Gorontalo,Cabai Rawit,23.68,2.0,Ringan,37230
+2026-03-21,3,5,Sukamaju,Gorontalo,Bawang Merah,23.68,2.0,Ringan,30231
+2026-03-21,3,5,Sukamaju,Gorontalo,Tomat,23.68,2.0,Ringan,16984
+2026-03-22,3,6,Sukamaju,Gorontalo,Cabai Rawit,23.85,0.6,Ringan,37147
+2026-03-22,3,6,Sukamaju,Gorontalo,Bawang Merah,23.85,0.6,Ringan,30089
+2026-03-22,3,6,Sukamaju,Gorontalo,Tomat,23.85,0.6,Ringan,16821
+2026-03-23,3,0,Sukamaju,Gorontalo,Cabai Rawit,23.68,0.6,Ringan,36932
+2026-03-23,3,0,Sukamaju,Gorontalo,Bawang Merah,23.68,0.6,Ringan,30840
+2026-03-23,3,0,Sukamaju,Gorontalo,Tomat,23.68,0.6,Ringan,16239
+2026-03-24,3,1,Sukamaju,Gorontalo,Cabai Rawit,23.81,0.9,Ringan,37456
+2026-03-24,3,1,Sukamaju,Gorontalo,Bawang Merah,23.81,0.9,Ringan,29971
+2026-03-24,3,1,Sukamaju,Gorontalo,Tomat,23.81,0.9,Ringan,17488
+2026-03-25,3,2,Sukamaju,Gorontalo,Cabai Rawit,23.6,3.7,Ringan,37119
+2026-03-25,3,2,Sukamaju,Gorontalo,Bawang Merah,23.6,3.7,Ringan,30176
+2026-03-25,3,2,Sukamaju,Gorontalo,Tomat,23.6,3.7,Ringan,16171
+2026-03-26,3,3,Sukamaju,Gorontalo,Cabai Rawit,23.0,2.0,Ringan,37108
+2026-03-26,3,3,Sukamaju,Gorontalo,Bawang Merah,23.0,2.0,Ringan,30605
+2026-03-26,3,3,Sukamaju,Gorontalo,Tomat,23.0,2.0,Ringan,17749
+2026-03-27,3,4,Sukamaju,Gorontalo,Cabai Rawit,22.7,8.1,Ringan,36812
+2026-03-27,3,4,Sukamaju,Gorontalo,Bawang Merah,22.7,8.1,Ringan,30195
+2026-03-27,3,4,Sukamaju,Gorontalo,Tomat,22.7,8.1,Ringan,16541
+2026-03-28,3,5,Sukamaju,Gorontalo,Cabai Rawit,22.71,18.3,Lebat,40249
+2026-03-28,3,5,Sukamaju,Gorontalo,Bawang Merah,22.71,18.3,Lebat,34863
+2026-03-28,3,5,Sukamaju,Gorontalo,Tomat,22.71,18.3,Lebat,21560
+2026-03-29,3,6,Sukamaju,Gorontalo,Cabai Rawit,23.07,13.1,Lebat,42280
+2026-03-29,3,6,Sukamaju,Gorontalo,Bawang Merah,23.07,13.1,Lebat,34586
+2026-03-29,3,6,Sukamaju,Gorontalo,Tomat,23.07,13.1,Lebat,22556
+2026-03-30,3,0,Sukamaju,Gorontalo,Cabai Rawit,22.82,0.9,Ringan,36431
+2026-03-30,3,0,Sukamaju,Gorontalo,Bawang Merah,22.82,0.9,Ringan,29638
+2026-03-30,3,0,Sukamaju,Gorontalo,Tomat,22.82,0.9,Ringan,17252
+2026-03-31,3,1,Sukamaju,Gorontalo,Cabai Rawit,23.25,2.7,Ringan,37367
+2026-03-31,3,1,Sukamaju,Gorontalo,Bawang Merah,23.25,2.7,Ringan,30478
+2026-03-31,3,1,Sukamaju,Gorontalo,Tomat,23.25,2.7,Ringan,16054
+2026-04-01,4,2,Sukamaju,Gorontalo,Cabai Rawit,22.64,13.9,Lebat,41537
+2026-04-01,4,2,Sukamaju,Gorontalo,Bawang Merah,22.64,13.9,Lebat,33984
+2026-04-01,4,2,Sukamaju,Gorontalo,Tomat,22.64,13.9,Lebat,20986
+2026-04-02,4,3,Sukamaju,Gorontalo,Cabai Rawit,22.8,20.2,Lebat,42094
+2026-04-02,4,3,Sukamaju,Gorontalo,Bawang Merah,22.8,20.2,Lebat,35331
+2026-04-02,4,3,Sukamaju,Gorontalo,Tomat,22.8,20.2,Lebat,22546
+2026-04-03,4,4,Sukamaju,Gorontalo,Cabai Rawit,24.07,2.9,Ringan,37095
+2026-04-03,4,4,Sukamaju,Gorontalo,Bawang Merah,24.07,2.9,Ringan,30113
+2026-04-03,4,4,Sukamaju,Gorontalo,Tomat,24.07,2.9,Ringan,17635
+2026-04-04,4,5,Sukamaju,Gorontalo,Cabai Rawit,23.44,9.2,Ringan,36907
+2026-04-04,4,5,Sukamaju,Gorontalo,Bawang Merah,23.44,9.2,Ringan,30134
+2026-04-04,4,5,Sukamaju,Gorontalo,Tomat,23.44,9.2,Ringan,17290
+2026-04-05,4,6,Sukamaju,Gorontalo,Cabai Rawit,23.26,6.3,Ringan,36966
+2026-04-05,4,6,Sukamaju,Gorontalo,Bawang Merah,23.26,6.3,Ringan,30445
+2026-04-05,4,6,Sukamaju,Gorontalo,Tomat,23.26,6.3,Ringan,16263
+2026-04-06,4,0,Sukamaju,Gorontalo,Cabai Rawit,22.93,12.5,Lebat,42662
+2026-04-06,4,0,Sukamaju,Gorontalo,Bawang Merah,22.93,12.5,Lebat,35523
+2026-04-06,4,0,Sukamaju,Gorontalo,Tomat,22.93,12.5,Lebat,22238
+2026-04-07,4,1,Sukamaju,Gorontalo,Cabai Rawit,22.55,31.8,Lebat,41184
+2026-04-07,4,1,Sukamaju,Gorontalo,Bawang Merah,22.55,31.8,Lebat,33629
+2026-04-07,4,1,Sukamaju,Gorontalo,Tomat,22.55,31.8,Lebat,21939
+2026-04-08,4,2,Sukamaju,Gorontalo,Cabai Rawit,23.02,17.8,Lebat,41287
+2026-04-08,4,2,Sukamaju,Gorontalo,Bawang Merah,23.02,17.8,Lebat,35330
+2026-04-08,4,2,Sukamaju,Gorontalo,Tomat,23.02,17.8,Lebat,21329
+2026-04-09,4,3,Sukamaju,Gorontalo,Cabai Rawit,22.86,8.5,Ringan,36618
+2026-04-09,4,3,Sukamaju,Gorontalo,Bawang Merah,22.86,8.5,Ringan,29433
+2026-04-09,4,3,Sukamaju,Gorontalo,Tomat,22.86,8.5,Ringan,16174
+2026-04-10,4,4,Sukamaju,Gorontalo,Cabai Rawit,23.22,24.6,Lebat,40952
+2026-04-10,4,4,Sukamaju,Gorontalo,Bawang Merah,23.22,24.6,Lebat,35251
+2026-04-10,4,4,Sukamaju,Gorontalo,Tomat,23.22,24.6,Lebat,21103
+2026-04-11,4,5,Sukamaju,Gorontalo,Cabai Rawit,23.7,22.5,Lebat,40741
+2026-04-11,4,5,Sukamaju,Gorontalo,Bawang Merah,23.7,22.5,Lebat,35693
+2026-04-11,4,5,Sukamaju,Gorontalo,Tomat,23.7,22.5,Lebat,20995
+2026-04-12,4,6,Sukamaju,Gorontalo,Cabai Rawit,23.56,8.2,Ringan,37903
+2026-04-12,4,6,Sukamaju,Gorontalo,Bawang Merah,23.56,8.2,Ringan,30495
+2026-04-12,4,6,Sukamaju,Gorontalo,Tomat,23.56,8.2,Ringan,17407
+2026-04-13,4,0,Sukamaju,Gorontalo,Cabai Rawit,24.38,0.2,Ringan,36747
+2026-04-13,4,0,Sukamaju,Gorontalo,Bawang Merah,24.38,0.2,Ringan,30559
+2026-04-13,4,0,Sukamaju,Gorontalo,Tomat,24.38,0.2,Ringan,17897
+2026-04-14,4,1,Sukamaju,Gorontalo,Cabai Rawit,23.6,7.7,Ringan,37472
+2026-04-14,4,1,Sukamaju,Gorontalo,Bawang Merah,23.6,7.7,Ringan,29529
+2026-04-14,4,1,Sukamaju,Gorontalo,Tomat,23.6,7.7,Ringan,17814
+2026-04-15,4,2,Sukamaju,Gorontalo,Cabai Rawit,22.87,12.4,Lebat,42985
+2026-04-15,4,2,Sukamaju,Gorontalo,Bawang Merah,22.87,12.4,Lebat,33466
+2026-04-15,4,2,Sukamaju,Gorontalo,Tomat,22.87,12.4,Lebat,20572
+2026-04-16,4,3,Sukamaju,Gorontalo,Cabai Rawit,23.91,3.2,Ringan,36160
+2026-04-16,4,3,Sukamaju,Gorontalo,Bawang Merah,23.91,3.2,Ringan,29666
+2026-04-16,4,3,Sukamaju,Gorontalo,Tomat,23.91,3.2,Ringan,17366
+2026-04-17,4,4,Sukamaju,Gorontalo,Cabai Rawit,23.06,13.9,Lebat,41411
+2026-04-17,4,4,Sukamaju,Gorontalo,Bawang Merah,23.06,13.9,Lebat,35131
+2026-04-17,4,4,Sukamaju,Gorontalo,Tomat,23.06,13.9,Lebat,20109
+2026-04-18,4,5,Sukamaju,Gorontalo,Cabai Rawit,23.6,1.3,Ringan,36394
+2026-04-18,4,5,Sukamaju,Gorontalo,Bawang Merah,23.6,1.3,Ringan,30884
+2026-04-18,4,5,Sukamaju,Gorontalo,Tomat,23.6,1.3,Ringan,16693
+2026-04-19,4,6,Sukamaju,Gorontalo,Cabai Rawit,23.81,0.4,Ringan,37473
+2026-04-19,4,6,Sukamaju,Gorontalo,Bawang Merah,23.81,0.4,Ringan,29539
+2026-04-19,4,6,Sukamaju,Gorontalo,Tomat,23.81,0.4,Ringan,17193
+2026-04-20,4,0,Sukamaju,Gorontalo,Cabai Rawit,24.17,1.5,Ringan,37897
+2026-04-20,4,0,Sukamaju,Gorontalo,Bawang Merah,24.17,1.5,Ringan,30486
+2026-04-20,4,0,Sukamaju,Gorontalo,Tomat,24.17,1.5,Ringan,17813
+2026-04-21,4,1,Sukamaju,Gorontalo,Cabai Rawit,23.83,3.4,Ringan,37714
+2026-04-21,4,1,Sukamaju,Gorontalo,Bawang Merah,23.83,3.4,Ringan,29976
+2026-04-21,4,1,Sukamaju,Gorontalo,Tomat,23.83,3.4,Ringan,16068
+2026-04-22,4,2,Sukamaju,Gorontalo,Cabai Rawit,23.76,4.7,Ringan,36128
+2026-04-22,4,2,Sukamaju,Gorontalo,Bawang Merah,23.76,4.7,Ringan,30823
+2026-04-22,4,2,Sukamaju,Gorontalo,Tomat,23.76,4.7,Ringan,17145
+2026-04-23,4,3,Sukamaju,Gorontalo,Cabai Rawit,24.08,16.5,Lebat,41532
+2026-04-23,4,3,Sukamaju,Gorontalo,Bawang Merah,24.08,16.5,Lebat,35598
+2026-04-23,4,3,Sukamaju,Gorontalo,Tomat,24.08,16.5,Lebat,21876
+2026-01-23,1,4,Sidomulyo,Jawa Timur,Cabai Rawit,21.81,17.8,Lebat,41878
+2026-01-23,1,4,Sidomulyo,Jawa Timur,Bawang Merah,21.81,17.8,Lebat,34907
+2026-01-23,1,4,Sidomulyo,Jawa Timur,Tomat,21.81,17.8,Lebat,20764
+2026-01-24,1,5,Sidomulyo,Jawa Timur,Cabai Rawit,21.61,4.2,Ringan,36323
+2026-01-24,1,5,Sidomulyo,Jawa Timur,Bawang Merah,21.61,4.2,Ringan,30895
+2026-01-24,1,5,Sidomulyo,Jawa Timur,Tomat,21.61,4.2,Ringan,17607
+2026-01-25,1,6,Sidomulyo,Jawa Timur,Cabai Rawit,22.56,0.4,Ringan,37086
+2026-01-25,1,6,Sidomulyo,Jawa Timur,Bawang Merah,22.56,0.4,Ringan,29031
+2026-01-25,1,6,Sidomulyo,Jawa Timur,Tomat,22.56,0.4,Ringan,16347
+2026-01-26,1,0,Sidomulyo,Jawa Timur,Cabai Rawit,22.91,0.9,Ringan,36830
+2026-01-26,1,0,Sidomulyo,Jawa Timur,Bawang Merah,22.91,0.9,Ringan,29279
+2026-01-26,1,0,Sidomulyo,Jawa Timur,Tomat,22.91,0.9,Ringan,17994
+2026-01-27,1,1,Sidomulyo,Jawa Timur,Cabai Rawit,22.48,1.1,Ringan,37792
+2026-01-27,1,1,Sidomulyo,Jawa Timur,Bawang Merah,22.48,1.1,Ringan,29725
+2026-01-27,1,1,Sidomulyo,Jawa Timur,Tomat,22.48,1.1,Ringan,16360
+2026-01-28,1,2,Sidomulyo,Jawa Timur,Cabai Rawit,21.82,30.6,Lebat,41676
+2026-01-28,1,2,Sidomulyo,Jawa Timur,Bawang Merah,21.82,30.6,Lebat,33561
+2026-01-28,1,2,Sidomulyo,Jawa Timur,Tomat,21.82,30.6,Lebat,21341
+2026-01-29,1,3,Sidomulyo,Jawa Timur,Cabai Rawit,21.89,20.2,Lebat,42802
+2026-01-29,1,3,Sidomulyo,Jawa Timur,Bawang Merah,21.89,20.2,Lebat,35617
+2026-01-29,1,3,Sidomulyo,Jawa Timur,Tomat,21.89,20.2,Lebat,20316
+2026-01-30,1,4,Sidomulyo,Jawa Timur,Cabai Rawit,22.55,2.3,Ringan,37873
+2026-01-30,1,4,Sidomulyo,Jawa Timur,Bawang Merah,22.55,2.3,Ringan,29532
+2026-01-30,1,4,Sidomulyo,Jawa Timur,Tomat,22.55,2.3,Ringan,16184
+2026-01-31,1,5,Sidomulyo,Jawa Timur,Cabai Rawit,22.77,6.5,Ringan,36561
+2026-01-31,1,5,Sidomulyo,Jawa Timur,Bawang Merah,22.77,6.5,Ringan,29049
+2026-01-31,1,5,Sidomulyo,Jawa Timur,Tomat,22.77,6.5,Ringan,17529
+2026-02-01,2,6,Sidomulyo,Jawa Timur,Cabai Rawit,22.65,2.4,Ringan,37413
+2026-02-01,2,6,Sidomulyo,Jawa Timur,Bawang Merah,22.65,2.4,Ringan,30773
+2026-02-01,2,6,Sidomulyo,Jawa Timur,Tomat,22.65,2.4,Ringan,16401
+2026-02-02,2,0,Sidomulyo,Jawa Timur,Cabai Rawit,22.42,4.9,Ringan,36844
+2026-02-02,2,0,Sidomulyo,Jawa Timur,Bawang Merah,22.42,4.9,Ringan,30642
+2026-02-02,2,0,Sidomulyo,Jawa Timur,Tomat,22.42,4.9,Ringan,17571
+2026-02-03,2,1,Sidomulyo,Jawa Timur,Cabai Rawit,22.59,0.9,Ringan,37640
+2026-02-03,2,1,Sidomulyo,Jawa Timur,Bawang Merah,22.59,0.9,Ringan,29058
+2026-02-03,2,1,Sidomulyo,Jawa Timur,Tomat,22.59,0.9,Ringan,17996
+2026-02-04,2,2,Sidomulyo,Jawa Timur,Cabai Rawit,22.68,3.3,Ringan,37894
+2026-02-04,2,2,Sidomulyo,Jawa Timur,Bawang Merah,22.68,3.3,Ringan,30964
+2026-02-04,2,2,Sidomulyo,Jawa Timur,Tomat,22.68,3.3,Ringan,17336
+2026-02-05,2,3,Sidomulyo,Jawa Timur,Cabai Rawit,22.89,5.6,Ringan,36740
+2026-02-05,2,3,Sidomulyo,Jawa Timur,Bawang Merah,22.89,5.6,Ringan,30159
+2026-02-05,2,3,Sidomulyo,Jawa Timur,Tomat,22.89,5.6,Ringan,16103
+2026-02-06,2,4,Sidomulyo,Jawa Timur,Cabai Rawit,23.07,2.6,Ringan,37911
+2026-02-06,2,4,Sidomulyo,Jawa Timur,Bawang Merah,23.07,2.6,Ringan,29352
+2026-02-06,2,4,Sidomulyo,Jawa Timur,Tomat,23.07,2.6,Ringan,16474
+2026-02-07,2,5,Sidomulyo,Jawa Timur,Cabai Rawit,22.65,2.1,Ringan,37731
+2026-02-07,2,5,Sidomulyo,Jawa Timur,Bawang Merah,22.65,2.1,Ringan,30748
+2026-02-07,2,5,Sidomulyo,Jawa Timur,Tomat,22.65,2.1,Ringan,17339
+2026-02-08,2,6,Sidomulyo,Jawa Timur,Cabai Rawit,22.97,1.2,Ringan,37869
+2026-02-08,2,6,Sidomulyo,Jawa Timur,Bawang Merah,22.97,1.2,Ringan,29894
+2026-02-08,2,6,Sidomulyo,Jawa Timur,Tomat,22.97,1.2,Ringan,17273
+2026-02-09,2,0,Sidomulyo,Jawa Timur,Cabai Rawit,22.22,4.3,Ringan,36967
+2026-02-09,2,0,Sidomulyo,Jawa Timur,Bawang Merah,22.22,4.3,Ringan,29959
+2026-02-09,2,0,Sidomulyo,Jawa Timur,Tomat,22.22,4.3,Ringan,16418
+2026-02-10,2,1,Sidomulyo,Jawa Timur,Cabai Rawit,22.39,2.2,Ringan,37310
+2026-02-10,2,1,Sidomulyo,Jawa Timur,Bawang Merah,22.39,2.2,Ringan,29758
+2026-02-10,2,1,Sidomulyo,Jawa Timur,Tomat,22.39,2.2,Ringan,17986
+2026-02-11,2,2,Sidomulyo,Jawa Timur,Cabai Rawit,23.41,4.3,Ringan,36405
+2026-02-11,2,2,Sidomulyo,Jawa Timur,Bawang Merah,23.41,4.3,Ringan,30246
+2026-02-11,2,2,Sidomulyo,Jawa Timur,Tomat,23.41,4.3,Ringan,16017
+2026-02-12,2,3,Sidomulyo,Jawa Timur,Cabai Rawit,22.81,15.5,Lebat,40115
+2026-02-12,2,3,Sidomulyo,Jawa Timur,Bawang Merah,22.81,15.5,Lebat,34387
+2026-02-12,2,3,Sidomulyo,Jawa Timur,Tomat,22.81,15.5,Lebat,20517
+2026-02-13,2,4,Sidomulyo,Jawa Timur,Cabai Rawit,22.75,4.0,Ringan,37898
+2026-02-13,2,4,Sidomulyo,Jawa Timur,Bawang Merah,22.75,4.0,Ringan,29572
+2026-02-13,2,4,Sidomulyo,Jawa Timur,Tomat,22.75,4.0,Ringan,16632
+2026-02-14,2,5,Sidomulyo,Jawa Timur,Cabai Rawit,23.37,2.7,Ringan,37265
+2026-02-14,2,5,Sidomulyo,Jawa Timur,Bawang Merah,23.37,2.7,Ringan,30587
+2026-02-14,2,5,Sidomulyo,Jawa Timur,Tomat,23.37,2.7,Ringan,16370
+2026-02-15,2,6,Sidomulyo,Jawa Timur,Cabai Rawit,23.23,2.4,Ringan,36901
+2026-02-15,2,6,Sidomulyo,Jawa Timur,Bawang Merah,23.23,2.4,Ringan,30172
+2026-02-15,2,6,Sidomulyo,Jawa Timur,Tomat,23.23,2.4,Ringan,17582
+2026-02-16,2,0,Sidomulyo,Jawa Timur,Cabai Rawit,22.87,3.7,Ringan,37155
+2026-02-16,2,0,Sidomulyo,Jawa Timur,Bawang Merah,22.87,3.7,Ringan,29113
+2026-02-16,2,0,Sidomulyo,Jawa Timur,Tomat,22.87,3.7,Ringan,16988
+2026-02-17,2,1,Sidomulyo,Jawa Timur,Cabai Rawit,23.54,8.0,Ringan,37359
+2026-02-17,2,1,Sidomulyo,Jawa Timur,Bawang Merah,23.54,8.0,Ringan,29749
+2026-02-17,2,1,Sidomulyo,Jawa Timur,Tomat,23.54,8.0,Ringan,16808
+2026-02-18,2,2,Sidomulyo,Jawa Timur,Cabai Rawit,22.35,2.7,Ringan,36811
+2026-02-18,2,2,Sidomulyo,Jawa Timur,Bawang Merah,22.35,2.7,Ringan,29704
+2026-02-18,2,2,Sidomulyo,Jawa Timur,Tomat,22.35,2.7,Ringan,16380
+2026-02-19,2,3,Sidomulyo,Jawa Timur,Cabai Rawit,21.96,5.7,Ringan,37825
+2026-02-19,2,3,Sidomulyo,Jawa Timur,Bawang Merah,21.96,5.7,Ringan,29057
+2026-02-19,2,3,Sidomulyo,Jawa Timur,Tomat,21.96,5.7,Ringan,17623
+2026-02-20,2,4,Sidomulyo,Jawa Timur,Cabai Rawit,22.22,4.3,Ringan,36834
+2026-02-20,2,4,Sidomulyo,Jawa Timur,Bawang Merah,22.22,4.3,Ringan,29970
+2026-02-20,2,4,Sidomulyo,Jawa Timur,Tomat,22.22,4.3,Ringan,17135
+2026-02-21,2,5,Sidomulyo,Jawa Timur,Cabai Rawit,22.96,1.8,Ringan,36709
+2026-02-21,2,5,Sidomulyo,Jawa Timur,Bawang Merah,22.96,1.8,Ringan,29261
+2026-02-21,2,5,Sidomulyo,Jawa Timur,Tomat,22.96,1.8,Ringan,17128
+2026-02-22,2,6,Sidomulyo,Jawa Timur,Cabai Rawit,22.57,9.2,Ringan,37458
+2026-02-22,2,6,Sidomulyo,Jawa Timur,Bawang Merah,22.57,9.2,Ringan,29333
+2026-02-22,2,6,Sidomulyo,Jawa Timur,Tomat,22.57,9.2,Ringan,16677
+2026-02-23,2,0,Sidomulyo,Jawa Timur,Cabai Rawit,21.86,12.4,Lebat,41647
+2026-02-23,2,0,Sidomulyo,Jawa Timur,Bawang Merah,21.86,12.4,Lebat,34349
+2026-02-23,2,0,Sidomulyo,Jawa Timur,Tomat,21.86,12.4,Lebat,20399
+2026-02-24,2,1,Sidomulyo,Jawa Timur,Cabai Rawit,23.08,2.0,Ringan,37523
+2026-02-24,2,1,Sidomulyo,Jawa Timur,Bawang Merah,23.08,2.0,Ringan,30143
+2026-02-24,2,1,Sidomulyo,Jawa Timur,Tomat,23.08,2.0,Ringan,16424
+2026-02-25,2,2,Sidomulyo,Jawa Timur,Cabai Rawit,23.8,0.6,Ringan,36587
+2026-02-25,2,2,Sidomulyo,Jawa Timur,Bawang Merah,23.8,0.6,Ringan,30800
+2026-02-25,2,2,Sidomulyo,Jawa Timur,Tomat,23.8,0.6,Ringan,16025
+2026-02-26,2,3,Sidomulyo,Jawa Timur,Cabai Rawit,23.37,0.5,Ringan,36177
+2026-02-26,2,3,Sidomulyo,Jawa Timur,Bawang Merah,23.37,0.5,Ringan,30943
+2026-02-26,2,3,Sidomulyo,Jawa Timur,Tomat,23.37,0.5,Ringan,16381
+2026-02-27,2,4,Sidomulyo,Jawa Timur,Cabai Rawit,22.68,2.0,Ringan,37884
+2026-02-27,2,4,Sidomulyo,Jawa Timur,Bawang Merah,22.68,2.0,Ringan,30330
+2026-02-27,2,4,Sidomulyo,Jawa Timur,Tomat,22.68,2.0,Ringan,16277
+2026-02-28,2,5,Sidomulyo,Jawa Timur,Cabai Rawit,22.72,12.9,Lebat,41024
+2026-02-28,2,5,Sidomulyo,Jawa Timur,Bawang Merah,22.72,12.9,Lebat,35381
+2026-02-28,2,5,Sidomulyo,Jawa Timur,Tomat,22.72,12.9,Lebat,21851
+2026-03-01,3,6,Sidomulyo,Jawa Timur,Cabai Rawit,23.18,2.3,Ringan,36698
+2026-03-01,3,6,Sidomulyo,Jawa Timur,Bawang Merah,23.18,2.3,Ringan,29824
+2026-03-01,3,6,Sidomulyo,Jawa Timur,Tomat,23.18,2.3,Ringan,17314
+2026-03-02,3,0,Sidomulyo,Jawa Timur,Cabai Rawit,23.11,11.9,Lebat,40053
+2026-03-02,3,0,Sidomulyo,Jawa Timur,Bawang Merah,23.11,11.9,Lebat,33846
+2026-03-02,3,0,Sidomulyo,Jawa Timur,Tomat,23.11,11.9,Lebat,20612
+2026-03-03,3,1,Sidomulyo,Jawa Timur,Cabai Rawit,22.71,25.1,Lebat,40680
+2026-03-03,3,1,Sidomulyo,Jawa Timur,Bawang Merah,22.71,25.1,Lebat,35140
+2026-03-03,3,1,Sidomulyo,Jawa Timur,Tomat,22.71,25.1,Lebat,21067
+2026-03-04,3,2,Sidomulyo,Jawa Timur,Cabai Rawit,22.73,9.2,Ringan,37594
+2026-03-04,3,2,Sidomulyo,Jawa Timur,Bawang Merah,22.73,9.2,Ringan,29496
+2026-03-04,3,2,Sidomulyo,Jawa Timur,Tomat,22.73,9.2,Ringan,17000
+2026-03-05,3,3,Sidomulyo,Jawa Timur,Cabai Rawit,23.08,3.5,Ringan,37434
+2026-03-05,3,3,Sidomulyo,Jawa Timur,Bawang Merah,23.08,3.5,Ringan,29977
+2026-03-05,3,3,Sidomulyo,Jawa Timur,Tomat,23.08,3.5,Ringan,17823
+2026-03-06,3,4,Sidomulyo,Jawa Timur,Cabai Rawit,22.43,9.2,Ringan,36239
+2026-03-06,3,4,Sidomulyo,Jawa Timur,Bawang Merah,22.43,9.2,Ringan,29129
+2026-03-06,3,4,Sidomulyo,Jawa Timur,Tomat,22.43,9.2,Ringan,17429
+2026-03-07,3,5,Sidomulyo,Jawa Timur,Cabai Rawit,22.28,10.3,Lebat,41351
+2026-03-07,3,5,Sidomulyo,Jawa Timur,Bawang Merah,22.28,10.3,Lebat,35699
+2026-03-07,3,5,Sidomulyo,Jawa Timur,Tomat,22.28,10.3,Lebat,21495
+2026-03-08,3,6,Sidomulyo,Jawa Timur,Cabai Rawit,21.96,9.8,Ringan,37877
+2026-03-08,3,6,Sidomulyo,Jawa Timur,Bawang Merah,21.96,9.8,Ringan,30921
+2026-03-08,3,6,Sidomulyo,Jawa Timur,Tomat,21.96,9.8,Ringan,17265
+2026-03-09,3,0,Sidomulyo,Jawa Timur,Cabai Rawit,22.74,6.6,Ringan,36644
+2026-03-09,3,0,Sidomulyo,Jawa Timur,Bawang Merah,22.74,6.6,Ringan,30073
+2026-03-09,3,0,Sidomulyo,Jawa Timur,Tomat,22.74,6.6,Ringan,16748
+2026-03-10,3,1,Sidomulyo,Jawa Timur,Cabai Rawit,23.92,0.0,Cerah,33726
+2026-03-10,3,1,Sidomulyo,Jawa Timur,Bawang Merah,23.92,0.0,Cerah,26967
+2026-03-10,3,1,Sidomulyo,Jawa Timur,Tomat,23.92,0.0,Cerah,13207
+2026-03-11,3,2,Sidomulyo,Jawa Timur,Cabai Rawit,24.03,0.2,Ringan,36509
+2026-03-11,3,2,Sidomulyo,Jawa Timur,Bawang Merah,24.03,0.2,Ringan,29174
+2026-03-11,3,2,Sidomulyo,Jawa Timur,Tomat,24.03,0.2,Ringan,17081
+2026-03-12,3,3,Sidomulyo,Jawa Timur,Cabai Rawit,24.04,0.4,Ringan,36509
+2026-03-12,3,3,Sidomulyo,Jawa Timur,Bawang Merah,24.04,0.4,Ringan,30807
+2026-03-12,3,3,Sidomulyo,Jawa Timur,Tomat,24.04,0.4,Ringan,17578
+2026-03-13,3,4,Sidomulyo,Jawa Timur,Cabai Rawit,23.79,0.3,Ringan,37560
+2026-03-13,3,4,Sidomulyo,Jawa Timur,Bawang Merah,23.79,0.3,Ringan,29466
+2026-03-13,3,4,Sidomulyo,Jawa Timur,Tomat,23.79,0.3,Ringan,16738
+2026-03-14,3,5,Sidomulyo,Jawa Timur,Cabai Rawit,23.19,1.8,Ringan,36480
+2026-03-14,3,5,Sidomulyo,Jawa Timur,Bawang Merah,23.19,1.8,Ringan,30097
+2026-03-14,3,5,Sidomulyo,Jawa Timur,Tomat,23.19,1.8,Ringan,16490
+2026-03-15,3,6,Sidomulyo,Jawa Timur,Cabai Rawit,23.9,0.0,Cerah,33748
+2026-03-15,3,6,Sidomulyo,Jawa Timur,Bawang Merah,23.9,0.0,Cerah,26994
+2026-03-15,3,6,Sidomulyo,Jawa Timur,Tomat,23.9,0.0,Cerah,13474
+2026-03-16,3,0,Sidomulyo,Jawa Timur,Cabai Rawit,24.38,0.1,Ringan,37698
+2026-03-16,3,0,Sidomulyo,Jawa Timur,Bawang Merah,24.38,0.1,Ringan,29421
+2026-03-16,3,0,Sidomulyo,Jawa Timur,Tomat,24.38,0.1,Ringan,17178
+2026-03-17,3,1,Sidomulyo,Jawa Timur,Cabai Rawit,24.82,0.4,Ringan,36817
+2026-03-17,3,1,Sidomulyo,Jawa Timur,Bawang Merah,24.82,0.4,Ringan,30802
+2026-03-17,3,1,Sidomulyo,Jawa Timur,Tomat,24.82,0.4,Ringan,17404
+2026-03-18,3,2,Sidomulyo,Jawa Timur,Cabai Rawit,24.83,0.4,Ringan,36631
+2026-03-18,3,2,Sidomulyo,Jawa Timur,Bawang Merah,24.83,0.4,Ringan,30121
+2026-03-18,3,2,Sidomulyo,Jawa Timur,Tomat,24.83,0.4,Ringan,16647
+2026-03-19,3,3,Sidomulyo,Jawa Timur,Cabai Rawit,23.97,0.2,Ringan,37986
+2026-03-19,3,3,Sidomulyo,Jawa Timur,Bawang Merah,23.97,0.2,Ringan,29863
+2026-03-19,3,3,Sidomulyo,Jawa Timur,Tomat,23.97,0.2,Ringan,17538
+2026-03-20,3,4,Sidomulyo,Jawa Timur,Cabai Rawit,23.95,2.5,Ringan,36331
+2026-03-20,3,4,Sidomulyo,Jawa Timur,Bawang Merah,23.95,2.5,Ringan,30442
+2026-03-20,3,4,Sidomulyo,Jawa Timur,Tomat,23.95,2.5,Ringan,17123
+2026-03-21,3,5,Sidomulyo,Jawa Timur,Cabai Rawit,23.68,2.0,Ringan,36206
+2026-03-21,3,5,Sidomulyo,Jawa Timur,Bawang Merah,23.68,2.0,Ringan,30612
+2026-03-21,3,5,Sidomulyo,Jawa Timur,Tomat,23.68,2.0,Ringan,16133
+2026-03-22,3,6,Sidomulyo,Jawa Timur,Cabai Rawit,23.85,0.6,Ringan,37307
+2026-03-22,3,6,Sidomulyo,Jawa Timur,Bawang Merah,23.85,0.6,Ringan,29699
+2026-03-22,3,6,Sidomulyo,Jawa Timur,Tomat,23.85,0.6,Ringan,17396
+2026-03-23,3,0,Sidomulyo,Jawa Timur,Cabai Rawit,23.68,0.6,Ringan,36108
+2026-03-23,3,0,Sidomulyo,Jawa Timur,Bawang Merah,23.68,0.6,Ringan,29810
+2026-03-23,3,0,Sidomulyo,Jawa Timur,Tomat,23.68,0.6,Ringan,16647
+2026-03-24,3,1,Sidomulyo,Jawa Timur,Cabai Rawit,23.81,0.9,Ringan,37725
+2026-03-24,3,1,Sidomulyo,Jawa Timur,Bawang Merah,23.81,0.9,Ringan,30267
+2026-03-24,3,1,Sidomulyo,Jawa Timur,Tomat,23.81,0.9,Ringan,16452
+2026-03-25,3,2,Sidomulyo,Jawa Timur,Cabai Rawit,23.6,3.7,Ringan,37381
+2026-03-25,3,2,Sidomulyo,Jawa Timur,Bawang Merah,23.6,3.7,Ringan,29205
+2026-03-25,3,2,Sidomulyo,Jawa Timur,Tomat,23.6,3.7,Ringan,16653
+2026-03-26,3,3,Sidomulyo,Jawa Timur,Cabai Rawit,23.0,2.0,Ringan,36791
+2026-03-26,3,3,Sidomulyo,Jawa Timur,Bawang Merah,23.0,2.0,Ringan,30471
+2026-03-26,3,3,Sidomulyo,Jawa Timur,Tomat,23.0,2.0,Ringan,16537
+2026-03-27,3,4,Sidomulyo,Jawa Timur,Cabai Rawit,22.7,8.1,Ringan,37869
+2026-03-27,3,4,Sidomulyo,Jawa Timur,Bawang Merah,22.7,8.1,Ringan,30543
+2026-03-27,3,4,Sidomulyo,Jawa Timur,Tomat,22.7,8.1,Ringan,17480
+2026-03-28,3,5,Sidomulyo,Jawa Timur,Cabai Rawit,22.71,18.3,Lebat,40211
+2026-03-28,3,5,Sidomulyo,Jawa Timur,Bawang Merah,22.71,18.3,Lebat,35759
+2026-03-28,3,5,Sidomulyo,Jawa Timur,Tomat,22.71,18.3,Lebat,22709
+2026-03-29,3,6,Sidomulyo,Jawa Timur,Cabai Rawit,23.07,13.1,Lebat,40510
+2026-03-29,3,6,Sidomulyo,Jawa Timur,Bawang Merah,23.07,13.1,Lebat,35237
+2026-03-29,3,6,Sidomulyo,Jawa Timur,Tomat,23.07,13.1,Lebat,20805
+2026-03-30,3,0,Sidomulyo,Jawa Timur,Cabai Rawit,22.82,0.9,Ringan,37024
+2026-03-30,3,0,Sidomulyo,Jawa Timur,Bawang Merah,22.82,0.9,Ringan,30012
+2026-03-30,3,0,Sidomulyo,Jawa Timur,Tomat,22.82,0.9,Ringan,17198
+2026-03-31,3,1,Sidomulyo,Jawa Timur,Cabai Rawit,23.25,2.7,Ringan,36505
+2026-03-31,3,1,Sidomulyo,Jawa Timur,Bawang Merah,23.25,2.7,Ringan,29361
+2026-03-31,3,1,Sidomulyo,Jawa Timur,Tomat,23.25,2.7,Ringan,17032
+2026-04-01,4,2,Sidomulyo,Jawa Timur,Cabai Rawit,22.64,13.9,Lebat,40340
+2026-04-01,4,2,Sidomulyo,Jawa Timur,Bawang Merah,22.64,13.9,Lebat,33433
+2026-04-01,4,2,Sidomulyo,Jawa Timur,Tomat,22.64,13.9,Lebat,20662
+2026-04-02,4,3,Sidomulyo,Jawa Timur,Cabai Rawit,22.8,20.2,Lebat,40447
+2026-04-02,4,3,Sidomulyo,Jawa Timur,Bawang Merah,22.8,20.2,Lebat,34962
+2026-04-02,4,3,Sidomulyo,Jawa Timur,Tomat,22.8,20.2,Lebat,21979
+2026-04-03,4,4,Sidomulyo,Jawa Timur,Cabai Rawit,24.07,2.9,Ringan,36980
+2026-04-03,4,4,Sidomulyo,Jawa Timur,Bawang Merah,24.07,2.9,Ringan,29393
+2026-04-03,4,4,Sidomulyo,Jawa Timur,Tomat,24.07,2.9,Ringan,16972
+2026-04-04,4,5,Sidomulyo,Jawa Timur,Cabai Rawit,23.44,9.2,Ringan,36913
+2026-04-04,4,5,Sidomulyo,Jawa Timur,Bawang Merah,23.44,9.2,Ringan,29789
+2026-04-04,4,5,Sidomulyo,Jawa Timur,Tomat,23.44,9.2,Ringan,17937
+2026-04-05,4,6,Sidomulyo,Jawa Timur,Cabai Rawit,23.26,6.3,Ringan,36177
+2026-04-05,4,6,Sidomulyo,Jawa Timur,Bawang Merah,23.26,6.3,Ringan,30230
+2026-04-05,4,6,Sidomulyo,Jawa Timur,Tomat,23.26,6.3,Ringan,17728
+2026-04-06,4,0,Sidomulyo,Jawa Timur,Cabai Rawit,22.93,12.5,Lebat,40548
+2026-04-06,4,0,Sidomulyo,Jawa Timur,Bawang Merah,22.93,12.5,Lebat,34522
+2026-04-06,4,0,Sidomulyo,Jawa Timur,Tomat,22.93,12.5,Lebat,20293
+2026-04-07,4,1,Sidomulyo,Jawa Timur,Cabai Rawit,22.55,31.8,Lebat,41044
+2026-04-07,4,1,Sidomulyo,Jawa Timur,Bawang Merah,22.55,31.8,Lebat,34467
+2026-04-07,4,1,Sidomulyo,Jawa Timur,Tomat,22.55,31.8,Lebat,21479
+2026-04-08,4,2,Sidomulyo,Jawa Timur,Cabai Rawit,23.02,17.8,Lebat,41295
+2026-04-08,4,2,Sidomulyo,Jawa Timur,Bawang Merah,23.02,17.8,Lebat,33193
+2026-04-08,4,2,Sidomulyo,Jawa Timur,Tomat,23.02,17.8,Lebat,22311
+2026-04-09,4,3,Sidomulyo,Jawa Timur,Cabai Rawit,22.86,8.5,Ringan,37137
+2026-04-09,4,3,Sidomulyo,Jawa Timur,Bawang Merah,22.86,8.5,Ringan,30778
+2026-04-09,4,3,Sidomulyo,Jawa Timur,Tomat,22.86,8.5,Ringan,16426
+2026-04-10,4,4,Sidomulyo,Jawa Timur,Cabai Rawit,23.22,24.6,Lebat,40951
+2026-04-10,4,4,Sidomulyo,Jawa Timur,Bawang Merah,23.22,24.6,Lebat,35338
+2026-04-10,4,4,Sidomulyo,Jawa Timur,Tomat,23.22,24.6,Lebat,22904
+2026-04-11,4,5,Sidomulyo,Jawa Timur,Cabai Rawit,23.7,22.5,Lebat,42898
+2026-04-11,4,5,Sidomulyo,Jawa Timur,Bawang Merah,23.7,22.5,Lebat,33059
+2026-04-11,4,5,Sidomulyo,Jawa Timur,Tomat,23.7,22.5,Lebat,20798
+2026-04-12,4,6,Sidomulyo,Jawa Timur,Cabai Rawit,23.56,8.2,Ringan,37739
+2026-04-12,4,6,Sidomulyo,Jawa Timur,Bawang Merah,23.56,8.2,Ringan,29145
+2026-04-12,4,6,Sidomulyo,Jawa Timur,Tomat,23.56,8.2,Ringan,16113
+2026-04-13,4,0,Sidomulyo,Jawa Timur,Cabai Rawit,24.38,0.2,Ringan,36516
+2026-04-13,4,0,Sidomulyo,Jawa Timur,Bawang Merah,24.38,0.2,Ringan,30662
+2026-04-13,4,0,Sidomulyo,Jawa Timur,Tomat,24.38,0.2,Ringan,16368
+2026-04-14,4,1,Sidomulyo,Jawa Timur,Cabai Rawit,23.6,7.7,Ringan,36795
+2026-04-14,4,1,Sidomulyo,Jawa Timur,Bawang Merah,23.6,7.7,Ringan,29684
+2026-04-14,4,1,Sidomulyo,Jawa Timur,Tomat,23.6,7.7,Ringan,16743
+2026-04-15,4,2,Sidomulyo,Jawa Timur,Cabai Rawit,22.87,12.4,Lebat,40016
+2026-04-15,4,2,Sidomulyo,Jawa Timur,Bawang Merah,22.87,12.4,Lebat,33077
+2026-04-15,4,2,Sidomulyo,Jawa Timur,Tomat,22.87,12.4,Lebat,20869
+2026-04-16,4,3,Sidomulyo,Jawa Timur,Cabai Rawit,23.91,3.2,Ringan,36522
+2026-04-16,4,3,Sidomulyo,Jawa Timur,Bawang Merah,23.91,3.2,Ringan,29132
+2026-04-16,4,3,Sidomulyo,Jawa Timur,Tomat,23.91,3.2,Ringan,16346
+2026-04-17,4,4,Sidomulyo,Jawa Timur,Cabai Rawit,23.06,13.9,Lebat,42505
+2026-04-17,4,4,Sidomulyo,Jawa Timur,Bawang Merah,23.06,13.9,Lebat,35386
+2026-04-17,4,4,Sidomulyo,Jawa Timur,Tomat,23.06,13.9,Lebat,21488
+2026-04-18,4,5,Sidomulyo,Jawa Timur,Cabai Rawit,23.6,1.3,Ringan,36090
+2026-04-18,4,5,Sidomulyo,Jawa Timur,Bawang Merah,23.6,1.3,Ringan,29052
+2026-04-18,4,5,Sidomulyo,Jawa Timur,Tomat,23.6,1.3,Ringan,17276
+2026-04-19,4,6,Sidomulyo,Jawa Timur,Cabai Rawit,23.81,0.4,Ringan,36015
+2026-04-19,4,6,Sidomulyo,Jawa Timur,Bawang Merah,23.81,0.4,Ringan,30868
+2026-04-19,4,6,Sidomulyo,Jawa Timur,Tomat,23.81,0.4,Ringan,16295
+2026-04-20,4,0,Sidomulyo,Jawa Timur,Cabai Rawit,24.17,1.5,Ringan,36162
+2026-04-20,4,0,Sidomulyo,Jawa Timur,Bawang Merah,24.17,1.5,Ringan,29114
+2026-04-20,4,0,Sidomulyo,Jawa Timur,Tomat,24.17,1.5,Ringan,16942
+2026-04-21,4,1,Sidomulyo,Jawa Timur,Cabai Rawit,23.83,3.4,Ringan,37747
+2026-04-21,4,1,Sidomulyo,Jawa Timur,Bawang Merah,23.83,3.4,Ringan,29219
+2026-04-21,4,1,Sidomulyo,Jawa Timur,Tomat,23.83,3.4,Ringan,16605
+2026-04-22,4,2,Sidomulyo,Jawa Timur,Cabai Rawit,23.76,4.7,Ringan,37083
+2026-04-22,4,2,Sidomulyo,Jawa Timur,Bawang Merah,23.76,4.7,Ringan,30519
+2026-04-22,4,2,Sidomulyo,Jawa Timur,Tomat,23.76,4.7,Ringan,17512
+2026-04-23,4,3,Sidomulyo,Jawa Timur,Cabai Rawit,24.08,16.5,Lebat,40654
+2026-04-23,4,3,Sidomulyo,Jawa Timur,Bawang Merah,24.08,16.5,Lebat,34922
+2026-04-23,4,3,Sidomulyo,Jawa Timur,Tomat,24.08,16.5,Lebat,20129

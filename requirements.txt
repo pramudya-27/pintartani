@@ -1,0 +1,9 @@
+python-telegram-bot==20.7
+httpx<0.28.0
+APScheduler
+python-dotenv
+fastapi
+uvicorn
+scikit-learn==1.6.1
+joblib
+google-genai
