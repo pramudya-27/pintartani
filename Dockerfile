@@ -16,5 +16,5 @@ COPY . .
 # Expose the default port used by Hugging Face Spaces
 EXPOSE 7860
 
-# Run the backend api_router module
-CMD ["uvicorn", "backend.api_router:app", "--host", "0.0.0.0", "--port", "7860"]
+# Run both Telegram Bot and FastAPI Web Server
+CMD ["python", "start_app.py"]
