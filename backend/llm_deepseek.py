@@ -6,7 +6,7 @@ from openai import OpenAI
 logger = logging.getLogger(__name__)
 
 load_dotenv()
-DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY")
+DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY", os.getenv("QWEN_API_KEY"))
 
 if DASHSCOPE_API_KEY:
     _client = OpenAI(
