@@ -52,7 +52,7 @@ function Beranda({setPage, setOpenCard}) {
         </div>
         <div>
           <div className="text-xl font-medium text-brand-accent font-playfair">
-            2
+            3
           </div>
           <div className="text-[10px] text-brand-light/40 uppercase tracking-wide">
             Model AI

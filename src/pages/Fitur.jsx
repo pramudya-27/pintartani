@@ -67,18 +67,29 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
             dateStyle: "medium",
             timeStyle: "short",
           }),
-          type: openCard === "c-harga" ? "Harga Pasar" :
-                openCard === "c-cuaca" ? "Cuaca & Risiko" :
-                openCard === "c-tanah" ? "Analisis Lahan" :
-                openCard === "c-prediksi" ? "Prediksi Tanam" : "Analisis AI",
+          type:
+            openCard === "c-harga"
+              ? "Harga Pasar"
+              : openCard === "c-cuaca"
+                ? "Cuaca & Risiko"
+                : openCard === "c-tanah"
+                  ? "Analisis Lahan"
+                  : openCard === "c-prediksi"
+                    ? "Prediksi Tanam"
+                    : "Analisis AI",
           prompt: prompt,
           content: data.content,
           source: data.data_source,
         };
         const username = loggedInUser || localStorage.getItem("pt_user");
         const historyKey = username ? `pt_history_${username}` : "pt_history";
-        const existingHistory = JSON.parse(localStorage.getItem(historyKey) || "[]");
-        localStorage.setItem(historyKey, JSON.stringify([historyItem, ...existingHistory]));
+        const existingHistory = JSON.parse(
+          localStorage.getItem(historyKey) || "[]",
+        );
+        localStorage.setItem(
+          historyKey,
+          JSON.stringify([historyItem, ...existingHistory]),
+        );
       } catch (historyErr) {
         console.error("Gagal menyimpan riwayat:", historyErr);
       }
@@ -189,7 +200,8 @@ Analisis dan berikan:
   return (
     <div className="p-7 animate-fade-in max-w-5xl mx-auto">
       <div className="text-[10px] text-brand-light/30 uppercase tracking-wide mb-4 text-center md:text-left">
-        Pilih salah satu fitur cerdas di bawah untuk memulai analisis AI Gemini & Qwen
+        Pilih salah satu fitur cerdas di bawah untuk memulai analisis AI Gemini
+        & Qwen
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-5 gap-6 items-start">
