@@ -328,15 +328,44 @@ Analisis dan berikan:
                         onChange={(e) => setKomoditas(e.target.value)}
                       >
                         <option value="">— Pilih komoditas —</option>
-                        <option>Beras Medium</option>
-                        <option>Beras Premium</option>
-                        <option>Cabai Merah Keriting</option>
-                        <option>Cabai Rawit Merah</option>
+                        <option>Padi</option>
+                        <option>Jagung</option>
+                        <option>Kedelai</option>
+                        <option>Cabai Merah</option>
+                        <option>Cabai Rawit</option>
                         <option>Bawang Merah</option>
                         <option>Bawang Putih</option>
                         <option>Tomat</option>
-                        <option>Jagung Pipilan Kering</option>
-                        <option>Kedelai Biji Kering</option>
+                        <option>Kentang</option>
+                        <option>Wortel</option>
+                        <option>Kubis</option>
+                        <option>Sawi</option>
+                        <option>Bayam</option>
+                        <option>Kangkung</option>
+                        <option>Kacang Panjang</option>
+                        <option>Mentimun</option>
+                        <option>Terong</option>
+                        <option>Kelapa Sawit</option>
+                        <option>Karet</option>
+                        <option>Kopi</option>
+                        <option>Kakao</option>
+                        <option>Teh</option>
+                        <option>Tebu</option>
+                        <option>Tembakau</option>
+                        <option>Cengkeh</option>
+                        <option>Lada</option>
+                        <option>Pala</option>
+                        <option>Kayu Manis</option>
+                        <option>Kelapa</option>
+                        <option>Jeruk</option>
+                        <option>Mangga</option>
+                        <option>Pisang</option>
+                        <option>Nanas</option>
+                        <option>Pepaya</option>
+                        <option>Durian</option>
+                        <option>Rambutan</option>
+                        <option>Manggis</option>
+                        <option>Alpukat</option>
                       </select>
                     </div>
                     <div>
@@ -349,13 +378,44 @@ Analisis dan berikan:
                         onChange={(e) => setKotaHarga(e.target.value)}
                       >
                         <option value="">— Pilih kota —</option>
-                        <option>Jakarta</option>
-                        <option>Surabaya</option>
-                        <option>Bandung</option>
+                        <option>Banda Aceh</option>
                         <option>Medan</option>
-                        <option>Makassar</option>
+                        <option>Padang</option>
+                        <option>Pekanbaru</option>
+                        <option>Tanjung Pinang</option>
+                        <option>Jambi</option>
+                        <option>Palembang</option>
+                        <option>Pangkal Pinang</option>
+                        <option>Bengkulu</option>
+                        <option>Bandar Lampung</option>
+                        <option>Jakarta</option>
+                        <option>Bandung</option>
+                        <option>Serang</option>
                         <option>Semarang</option>
                         <option>Yogyakarta</option>
+                        <option>Surabaya</option>
+                        <option>Denpasar</option>
+                        <option>Mataram</option>
+                        <option>Kupang</option>
+                        <option>Pontianak</option>
+                        <option>Palangkaraya</option>
+                        <option>Banjarmasin</option>
+                        <option>Samarinda</option>
+                        <option>Tanjung Selor</option>
+                        <option>Manado</option>
+                        <option>Gorontalo</option>
+                        <option>Palu</option>
+                        <option>Mamuju</option>
+                        <option>Makassar</option>
+                        <option>Kendari</option>
+                        <option>Ambon</option>
+                        <option>Sofifi</option>
+                        <option>Jayapura</option>
+                        <option>Manokwari</option>
+                        <option>Merauke</option>
+                        <option>Nabire</option>
+                        <option>Wamena</option>
+                        <option>Sorong</option>
                       </select>
                     </div>
                     <button
@@ -399,15 +459,44 @@ Analisis dan berikan:
                         onChange={(e) => setKotaCuaca(e.target.value)}
                       >
                         <option value="">— Pilih kota/provinsi —</option>
+                        <option>Banda Aceh</option>
+                        <option>Medan</option>
+                        <option>Padang</option>
+                        <option>Pekanbaru</option>
+                        <option>Tanjung Pinang</option>
+                        <option>Jambi</option>
+                        <option>Palembang</option>
+                        <option>Pangkal Pinang</option>
+                        <option>Bengkulu</option>
+                        <option>Bandar Lampung</option>
                         <option>Jakarta</option>
                         <option>Bandung</option>
-                        <option>Surabaya</option>
-                        <option>Medan</option>
-                        <option>Makassar</option>
+                        <option>Serang</option>
                         <option>Semarang</option>
                         <option>Yogyakarta</option>
-                        <option>Palembang</option>
+                        <option>Surabaya</option>
                         <option>Denpasar</option>
+                        <option>Mataram</option>
+                        <option>Kupang</option>
+                        <option>Pontianak</option>
+                        <option>Palangkaraya</option>
+                        <option>Banjarmasin</option>
+                        <option>Samarinda</option>
+                        <option>Tanjung Selor</option>
+                        <option>Manado</option>
+                        <option>Gorontalo</option>
+                        <option>Palu</option>
+                        <option>Mamuju</option>
+                        <option>Makassar</option>
+                        <option>Kendari</option>
+                        <option>Ambon</option>
+                        <option>Sofifi</option>
+                        <option>Jayapura</option>
+                        <option>Manokwari</option>
+                        <option>Merauke</option>
+                        <option>Nabire</option>
+                        <option>Wamena</option>
+                        <option>Sorong</option>
                       </select>
                     </div>
                     <button
@@ -534,10 +623,42 @@ Analisis dan berikan:
                         <option value="">— Komoditas —</option>
                         <option>Padi</option>
                         <option>Jagung</option>
-                        <option>Cabai Merah</option>
-                        <option>Bawang Merah</option>
-                        <option>Tomat</option>
                         <option>Kedelai</option>
+                        <option>Cabai Merah</option>
+                        <option>Cabai Rawit</option>
+                        <option>Bawang Merah</option>
+                        <option>Bawang Putih</option>
+                        <option>Tomat</option>
+                        <option>Kentang</option>
+                        <option>Wortel</option>
+                        <option>Kubis</option>
+                        <option>Sawi</option>
+                        <option>Bayam</option>
+                        <option>Kangkung</option>
+                        <option>Kacang Panjang</option>
+                        <option>Mentimun</option>
+                        <option>Terong</option>
+                        <option>Kelapa Sawit</option>
+                        <option>Karet</option>
+                        <option>Kopi</option>
+                        <option>Kakao</option>
+                        <option>Teh</option>
+                        <option>Tebu</option>
+                        <option>Tembakau</option>
+                        <option>Cengkeh</option>
+                        <option>Lada</option>
+                        <option>Pala</option>
+                        <option>Kayu Manis</option>
+                        <option>Kelapa</option>
+                        <option>Jeruk</option>
+                        <option>Mangga</option>
+                        <option>Pisang</option>
+                        <option>Nanas</option>
+                        <option>Pepaya</option>
+                        <option>Durian</option>
+                        <option>Rambutan</option>
+                        <option>Manggis</option>
+                        <option>Alpukat</option>
                       </select>
                     </div>
                     <div>
@@ -574,12 +695,44 @@ Analisis dan berikan:
                         onChange={(e) => setWilayahPred(e.target.value)}
                       >
                         <option value="">— Wilayah —</option>
-                        <option>Jawa Barat</option>
-                        <option>Jawa Tengah</option>
-                        <option>Jawa Timur</option>
+                        <option>Aceh</option>
                         <option>Sumatera Utara</option>
-                        <option>Sulawesi Selatan</option>
+                        <option>Sumatera Barat</option>
+                        <option>Riau</option>
+                        <option>Kepulauan Riau</option>
+                        <option>Jambi</option>
+                        <option>Sumatera Selatan</option>
+                        <option>Bangka Belitung</option>
+                        <option>Bengkulu</option>
+                        <option>Lampung</option>
+                        <option>DKI Jakarta</option>
+                        <option>Jawa Barat</option>
+                        <option>Banten</option>
+                        <option>Jawa Tengah</option>
+                        <option>DI Yogyakarta</option>
+                        <option>Jawa Timur</option>
                         <option>Bali</option>
+                        <option>NTB</option>
+                        <option>NTT</option>
+                        <option>Kalimantan Barat</option>
+                        <option>Kalimantan Tengah</option>
+                        <option>Kalimantan Selatan</option>
+                        <option>Kalimantan Timur</option>
+                        <option>Kalimantan Utara</option>
+                        <option>Sulawesi Utara</option>
+                        <option>Gorontalo</option>
+                        <option>Sulawesi Tengah</option>
+                        <option>Sulawesi Barat</option>
+                        <option>Sulawesi Selatan</option>
+                        <option>Sulawesi Tenggara</option>
+                        <option>Maluku</option>
+                        <option>Maluku Utara</option>
+                        <option>Papua Tengah</option>
+                        <option>Papua Selatan</option>
+                        <option>Papua Pegunungan</option>
+                        <option>Papua Barat Daya</option>
+                        <option>Papua Barat</option>
+                        <option>Papua</option>
                       </select>
                     </div>
                     <button
@@ -594,7 +747,7 @@ Analisis dan berikan:
                     <div className="mt-4 ai-loading text-xs">
                       <span className="ai-loading-dot"></span>
                       <span className="ai-loading-dot"></span>
-                      <span className="ai-loading-dot"></span> AI sedang
+                      <span className="ai-loading-dot"></span> Sedang
                       menganalisis data...
                     </div>
                   )}
@@ -609,11 +762,11 @@ Analisis dan berikan:
                 className="text-brand-accent/30 mb-3 animate-pulse"
               />
               <h3 className="text-sm font-semibold text-brand-light mb-1">
-                Mulai Analisis Cerdas
+                Mulai Analisis
               </h3>
               <p className="text-[11px] text-brand-light/40 max-w-[240px] leading-relaxed">
-                Pilih salah satu fitur cerdas di sebelah kiri untuk membuka form
-                input dan memulai analisis AI.
+                Pilih salah satu fitur di sebelah kiri untuk membuka form input
+                dan memulai analisis.
               </p>
             </div>
           )}
