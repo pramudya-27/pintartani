@@ -1,6 +1,6 @@
 import {useState} from "react";
 import axios from "axios";
-import {LineChart, CloudRain, FlaskConical, Bot, Sparkles} from "lucide-react";
+import {LineChart, CloudRain, FlaskConical, Bot, Sparkles, Info} from "lucide-react";
 
 function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
   const [loading, setLoading] = useState(false);
@@ -427,9 +427,45 @@ Analisis dan berikan:
                       </select>
                     </div>
                     <div>
-                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider mb-1 block">
+                    <div className="flex items-center gap-1.5 mb-1">
+                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider block">
                         Model AI
                       </label>
+                      <div className="relative group cursor-help">
+                        <Info
+                          size={10}
+                          className="text-brand-light/30 hover:text-brand-accent transition-colors"
+                        />
+                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 p-2.5 bg-black/90 border border-brand-accent/20 rounded-md text-[9px] text-brand-light/70 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 pointer-events-none shadow-2xl backdrop-blur-md">
+                          <p className="font-bold text-brand-accent mb-1.5 text-[10px] flex items-center gap-1">
+                            <Info size={10} /> Informasi Model AI:
+                          </p>
+                          <ul className="space-y-1.5">
+                            <li className="leading-relaxed">
+                              • <span className="text-brand-light font-medium">Auto:</span>{" "}
+                              Sistem memilih model terbaik secara otomatis.
+                            </li>
+                            <li className="leading-relaxed">
+                              •{" "}
+                              <span className="text-brand-light font-medium">
+                                Deepseek:
+                              </span>{" "}
+                              Terbaik untuk analisis data yang sangat kompleks & mendalam.
+                            </li>
+                            <li className="leading-relaxed">
+                              • <span className="text-brand-light font-medium">Qwen:</span>{" "}
+                              Akurasi tinggi untuk data statistik & teknis pertanian.
+                            </li>
+                            <li className="leading-relaxed">
+                              •{" "}
+                              <span className="text-brand-light font-medium">Gemini:</span>{" "}
+                              Respon tercepat, cocok untuk saran kreatif & harian.
+                            </li>
+                          </ul>
+                          <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-black/90"></div>
+                        </div>
+                      </div>
+                    </div>
                       <select
                         className="form-input w-full"
                         value={model}
@@ -523,9 +559,45 @@ Analisis dan berikan:
                       </select>
                     </div>
                     <div>
-                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider mb-1 block">
+                    <div className="flex items-center gap-1.5 mb-1">
+                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider block">
                         Model AI
                       </label>
+                      <div className="relative group cursor-help">
+                        <Info
+                          size={10}
+                          className="text-brand-light/30 hover:text-brand-accent transition-colors"
+                        />
+                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 p-2.5 bg-black/90 border border-brand-accent/20 rounded-md text-[9px] text-brand-light/70 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 pointer-events-none shadow-2xl backdrop-blur-md">
+                          <p className="font-bold text-brand-accent mb-1.5 text-[10px] flex items-center gap-1">
+                            <Info size={10} /> Informasi Model AI:
+                          </p>
+                          <ul className="space-y-1.5">
+                            <li className="leading-relaxed">
+                              • <span className="text-brand-light font-medium">Auto:</span>{" "}
+                              Sistem memilih model terbaik secara otomatis.
+                            </li>
+                            <li className="leading-relaxed">
+                              •{" "}
+                              <span className="text-brand-light font-medium">
+                                Deepseek:
+                              </span>{" "}
+                              Terbaik untuk analisis data yang sangat kompleks & mendalam.
+                            </li>
+                            <li className="leading-relaxed">
+                              • <span className="text-brand-light font-medium">Qwen:</span>{" "}
+                              Akurasi tinggi untuk data statistik & teknis pertanian.
+                            </li>
+                            <li className="leading-relaxed">
+                              •{" "}
+                              <span className="text-brand-light font-medium">Gemini:</span>{" "}
+                              Respon tercepat, cocok untuk saran kreatif & harian.
+                            </li>
+                          </ul>
+                          <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-black/90"></div>
+                        </div>
+                      </div>
+                    </div>
                       <select
                         className="form-input w-full"
                         value={model}
@@ -619,9 +691,45 @@ Analisis dan berikan:
                       </select>
                     </div>
                     <div>
-                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider mb-1 block">
+                    <div className="flex items-center gap-1.5 mb-1">
+                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider block">
                         Model AI
                       </label>
+                      <div className="relative group cursor-help">
+                        <Info
+                          size={10}
+                          className="text-brand-light/30 hover:text-brand-accent transition-colors"
+                        />
+                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 p-2.5 bg-black/90 border border-brand-accent/20 rounded-md text-[9px] text-brand-light/70 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 pointer-events-none shadow-2xl backdrop-blur-md">
+                          <p className="font-bold text-brand-accent mb-1.5 text-[10px] flex items-center gap-1">
+                            <Info size={10} /> Informasi Model AI:
+                          </p>
+                          <ul className="space-y-1.5">
+                            <li className="leading-relaxed">
+                              • <span className="text-brand-light font-medium">Auto:</span>{" "}
+                              Sistem memilih model terbaik secara otomatis.
+                            </li>
+                            <li className="leading-relaxed">
+                              •{" "}
+                              <span className="text-brand-light font-medium">
+                                Deepseek:
+                              </span>{" "}
+                              Terbaik untuk analisis data yang sangat kompleks & mendalam.
+                            </li>
+                            <li className="leading-relaxed">
+                              • <span className="text-brand-light font-medium">Qwen:</span>{" "}
+                              Akurasi tinggi untuk data statistik & teknis pertanian.
+                            </li>
+                            <li className="leading-relaxed">
+                              •{" "}
+                              <span className="text-brand-light font-medium">Gemini:</span>{" "}
+                              Respon tercepat, cocok untuk saran kreatif & harian.
+                            </li>
+                          </ul>
+                          <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-black/90"></div>
+                        </div>
+                      </div>
+                    </div>
                       <select
                         className="form-input w-full"
                         value={model}
@@ -789,9 +897,45 @@ Analisis dan berikan:
                       </select>
                     </div>
                     <div>
-                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider mb-1 block">
+                    <div className="flex items-center gap-1.5 mb-1">
+                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider block">
                         Model AI
                       </label>
+                      <div className="relative group cursor-help">
+                        <Info
+                          size={10}
+                          className="text-brand-light/30 hover:text-brand-accent transition-colors"
+                        />
+                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 p-2.5 bg-black/90 border border-brand-accent/20 rounded-md text-[9px] text-brand-light/70 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 pointer-events-none shadow-2xl backdrop-blur-md">
+                          <p className="font-bold text-brand-accent mb-1.5 text-[10px] flex items-center gap-1">
+                            <Info size={10} /> Informasi Model AI:
+                          </p>
+                          <ul className="space-y-1.5">
+                            <li className="leading-relaxed">
+                              • <span className="text-brand-light font-medium">Auto:</span>{" "}
+                              Sistem memilih model terbaik secara otomatis.
+                            </li>
+                            <li className="leading-relaxed">
+                              •{" "}
+                              <span className="text-brand-light font-medium">
+                                Deepseek:
+                              </span>{" "}
+                              Terbaik untuk analisis data yang sangat kompleks & mendalam.
+                            </li>
+                            <li className="leading-relaxed">
+                              • <span className="text-brand-light font-medium">Qwen:</span>{" "}
+                              Akurasi tinggi untuk data statistik & teknis pertanian.
+                            </li>
+                            <li className="leading-relaxed">
+                              •{" "}
+                              <span className="text-brand-light font-medium">Gemini:</span>{" "}
+                              Respon tercepat, cocok untuk saran kreatif & harian.
+                            </li>
+                          </ul>
+                          <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-black/90"></div>
+                        </div>
+                      </div>
+                    </div>
                       <select
                         className="form-input w-full"
                         value={model}
