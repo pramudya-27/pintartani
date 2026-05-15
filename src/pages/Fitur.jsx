@@ -200,8 +200,7 @@ Analisis dan berikan:
   return (
     <div className="p-7 animate-fade-in max-w-5xl mx-auto">
       <div className="text-[10px] text-brand-light/30 uppercase tracking-wide mb-4 text-center md:text-left">
-        Pilih salah satu fitur cerdas di bawah untuk memulai analisis AI Gemini
-        & Qwen
+        Pilih salah satu fitur di bawah ini untuk memulai analisis
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-5 gap-6 items-start">
@@ -225,7 +224,7 @@ Analisis dan berikan:
                   Harga Pasar Real-Time
                 </div>
                 <p className="text-[10px] text-brand-light/40 truncate">
-                  Analisis harga & estimasi pakar AI
+                  Analisis harga & estimasi
                 </p>
               </div>
             </div>
@@ -246,10 +245,10 @@ Analisis dan berikan:
               </div>
               <div className="flex-1 min-w-0">
                 <div className="text-xs font-semibold text-brand-light truncate">
-                  Cuaca BMKG & Risiko Tani
+                  Cuaca & Risiko Tani
                 </div>
                 <p className="text-[10px] text-brand-light/40 truncate">
-                  Prakiraan cuaca cerdas & risiko bertani
+                  Prakiraan cuaca & risiko bertani
                 </p>
               </div>
             </div>
@@ -297,7 +296,7 @@ Analisis dan berikan:
                   Prediksi & Saran Tanam
                 </div>
                 <p className="text-[10px] text-brand-light/40 truncate">
-                  Decision engine AI gabungan tren & musim
+                  Sistem AI penggabungan tren & musim
                 </p>
               </div>
             </div>

@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import {
   LineChart,
   CloudRain,
@@ -9,7 +9,7 @@ import {
   Sparkles,
 } from "lucide-react";
 
-function Riwayat({ loggedInUser }) {
+function Riwayat({loggedInUser}) {
   const historyKey = loggedInUser ? `pt_history_${loggedInUser}` : "pt_history";
 
   const [history, setHistory] = useState(() => {
@@ -21,13 +21,17 @@ function Riwayat({ loggedInUser }) {
     }
   });
 
-  useEffect(() => {
+  const [prevHistoryKey, setPrevHistoryKey] = useState(historyKey);
+
+  if (historyKey !== prevHistoryKey) {
+    setPrevHistoryKey(historyKey);
     try {
       setHistory(JSON.parse(localStorage.getItem(historyKey) || "[]"));
     } catch (e) {
       console.error("Gagal menyinkronkan riwayat:", e);
+      setHistory([]);
     }
-  }, [historyKey]);
+  }
 
   const [searchQuery, setSearchQuery] = useState("");
   const [filterType, setFilterType] = useState("Semua");
@@ -207,20 +211,10 @@ function Riwayat({ loggedInUser }) {
                     </button>
                   </div>
 
-                  {/* Prompt */}
-                  <div className="mb-3.5 bg-white/5 rounded-lg p-3 border border-white/5">
-                    <div className="text-[10px] text-brand-accent/50 uppercase tracking-wider mb-1 font-medium">
-                      Input Pertanyaan / Parameter:
-                    </div>
-                    <p className="text-xs text-brand-light font-medium leading-relaxed">
-                      {item.prompt}
-                    </p>
-                  </div>
-
                   {/* Response */}
                   <div className="bg-black/20 rounded-lg p-4 border border-[rgba(180,220,140,0.05)]">
                     <div className="text-[10px] text-brand-light/40 uppercase tracking-wider mb-2 font-medium">
-                      Hasil Analisis AI:
+                      Hasil Analisis:
                     </div>
                     <div className="text-xs text-brand-light/85 whitespace-pre-wrap leading-relaxed">
                       {item.content}

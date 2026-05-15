@@ -25,9 +25,9 @@ function Tentang() {
           Misi PintarTani
         </h3>
         <p className="text-[11px] text-brand-light/40 leading-relaxed">
-          Meniadakan kesenjangan informasi menggunakan arsitektur Pure LLM. Kami
-          percaya bahwa teknologi AI seperti Gemini dan Qwen memiliki kapasitas
-          untuk memberikan saran ahli tanah dan rekomendasi masa tanam.
+          Meniadakan kesenjangan informasi menggunakan arsitektur LLM. Kami
+          percaya bahwa teknologi AI memiliki kapasitas untuk memberikan saran
+          ahli tanah dan rekomendasi masa tanam.
         </p>
       </div>
     </div>

@@ -45,11 +45,10 @@ function Arsitektur() {
           Decision Engine & Multi-LLM
         </h3>
         <p className="text-[11px] text-brand-light/40 leading-relaxed">
-          Sistem menggunakan arsitektur fallback "Qwen-First". Backend akan
-          mencoba memanggil model Qwen (qwen3.5-flash) terlebih dahulu. Jika
-          terjadi limitasi atau kegagalan, sistem secara mulus beralih
-          (fallback) ke Gemini (gemini-2.5-flash) untuk memastikan ketersediaan
-          24/7.
+          Sistem menggunakan arsitektur fallback. Backend akan mencoba memanggil
+          model Deepseek terlebih dahulu. Jika terjadi limitasi atau kegagalan,
+          sistem secara mulus beralih ke model lainnya untuk memastikan
+          ketersediaan 24/7.
         </p>
       </div>
 
@@ -63,7 +62,7 @@ function Arsitektur() {
         <p className="text-[11px] text-brand-light/40 leading-relaxed">
           Data harga, cuaca, dan rekomendasi pupuk tidak lagi membutuhkan proses
           cron job mingguan yang berat. Semua laporan disintesis secara
-          real-time berdasarkan pengetahuan model AI (Pure LLM Pipeline).
+          real-time berdasarkan pengetahuan model AI.
         </p>
       </div>
     </div>
