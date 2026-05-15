@@ -435,7 +435,7 @@ Analisis dan berikan:
                         value={model}
                         onChange={(e) => setModel(e.target.value)}
                       >
-                        <option value="auto">Auto (Fallback)</option>
+                        <option value="auto">Auto</option>
                         <option value="deepseek">Deepseek-V3</option>
                         <option value="qwen">Qwen-2.5-Coder</option>
                         <option value="gemini">Gemini-2.0-Flash</option>
