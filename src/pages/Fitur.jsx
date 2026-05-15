@@ -26,9 +26,16 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
   const [bulanPred, setBulanPred] = useState("");
   const [wilayahPred, setWilayahPred] = useState("");
   const [resPrediksi, setResPrediksi] = useState(null);
+  const [model, setModel] = useState("auto");
 
   const toggleCard = (id) => {
     setOpenCard(openCard === id ? null : id);
+  };
+
+  const parseAIResponse = (text) => {
+    if (!text) return "";
+    // Menghapus ** (bold markdown) agar tampilan lebih bersih
+    return text.replace(/\*\*/g, "");
   };
 
   const callAI = async (prompt, setResState) => {
@@ -45,16 +52,17 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
     try {
       const res = await axios.post(
         "/api/ask",
-        {prompt},
+        {prompt, model},
         {headers: {Authorization: `Bearer ${token}`}},
       );
 
       const data = res.data;
+      const cleanContent = parseAIResponse(data.content);
       localStorage.setItem("pt_quota", data.quota_left);
       setQuota(data.quota_left);
 
       setResState({
-        content: data.content,
+        content: cleanContent,
         source: data.data_source,
         quota_left: data.quota_left,
       });
@@ -78,7 +86,7 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
                     ? "Prediksi Tanam"
                     : "Analisis AI",
           prompt: prompt,
-          content: data.content,
+          content: cleanContent,
           source: data.data_source,
         };
         const username = loggedInUser || localStorage.getItem("pt_user");
@@ -418,6 +426,21 @@ Analisis dan berikan:
                         <option>Sorong</option>
                       </select>
                     </div>
+                    <div>
+                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider mb-1 block">
+                        Model AI
+                      </label>
+                      <select
+                        className="form-input w-full"
+                        value={model}
+                        onChange={(e) => setModel(e.target.value)}
+                      >
+                        <option value="auto">Auto (Fallback)</option>
+                        <option value="deepseek">Deepseek-V3</option>
+                        <option value="qwen">Qwen-2.5-Coder</option>
+                        <option value="gemini">Gemini-2.0-Flash</option>
+                      </select>
+                    </div>
                     <button
                       disabled={loading && activeForm === "c-harga"}
                       onClick={aiHarga}
@@ -499,6 +522,21 @@ Analisis dan berikan:
                         <option>Sorong</option>
                       </select>
                     </div>
+                    <div>
+                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider mb-1 block">
+                        Model AI
+                      </label>
+                      <select
+                        className="form-input w-full"
+                        value={model}
+                        onChange={(e) => setModel(e.target.value)}
+                      >
+                        <option value="auto">Auto (Fallback)</option>
+                        <option value="deepseek">Deepseek-V3</option>
+                        <option value="qwen">Qwen-2.5-Coder</option>
+                        <option value="gemini">Gemini-2.0-Flash</option>
+                      </select>
+                    </div>
                     <button
                       disabled={loading && activeForm === "c-cuaca"}
                       onClick={aiCuaca}
@@ -578,6 +616,21 @@ Analisis dan berikan:
                         <option>Sulawesi</option>
                         <option>Bali & Nusa Tenggara</option>
                         <option>Papua</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider mb-1 block">
+                        Model AI
+                      </label>
+                      <select
+                        className="form-input w-full"
+                        value={model}
+                        onChange={(e) => setModel(e.target.value)}
+                      >
+                        <option value="auto">Auto (Fallback)</option>
+                        <option value="deepseek">Deepseek-V3</option>
+                        <option value="qwen">Qwen-2.5-Coder</option>
+                        <option value="gemini">Gemini-2.0-Flash</option>
                       </select>
                     </div>
                     <button
@@ -733,6 +786,21 @@ Analisis dan berikan:
                         <option>Papua Barat Daya</option>
                         <option>Papua Barat</option>
                         <option>Papua</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider mb-1 block">
+                        Model AI
+                      </label>
+                      <select
+                        className="form-input w-full"
+                        value={model}
+                        onChange={(e) => setModel(e.target.value)}
+                      >
+                        <option value="auto">Auto (Fallback)</option>
+                        <option value="deepseek">Deepseek-V3</option>
+                        <option value="qwen">Qwen-2.5-Coder</option>
+                        <option value="gemini">Gemini-2.0-Flash</option>
                       </select>
                     </div>
                     <button

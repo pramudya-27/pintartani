@@ -216,7 +216,7 @@ function Riwayat({loggedInUser}) {
                       Hasil Analisis:
                     </div>
                     <div className="text-xs text-brand-light/85 whitespace-pre-wrap leading-relaxed">
-                      {item.content}
+                      {item.content.replace(/\*\*/g, "")}
                     </div>
                   </div>
 
