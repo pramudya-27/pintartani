@@ -98,8 +98,7 @@ function Riwayat({loggedInUser}) {
             Riwayat Analisis AI
           </h2>
           <p className="text-xs text-brand-light/40 leading-relaxed">
-            Daftar percakapan dan analisis AI Anda yang disimpan secara lokal di
-            browser Anda.
+            Daftar hasil analisis AI yang disimpan.
           </p>
         </div>
 
