@@ -60,8 +60,9 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
     let source = "";
     let quota_left = 0;
 
+    const BASE_URL = "https://daimyo27-pintartani-backend.hf.space";
     try {
-      const response = await fetch("/api/ask/stream", {
+      const response = await fetch(`${BASE_URL}/api/ask/stream`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
