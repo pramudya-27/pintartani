@@ -1,53 +1,69 @@
 import {useState, useEffect, useRef} from "react";
 
-const TypewriterEffect = ({text, speed = 15, onComplete}) => {
+const TypewriterEffect = ({text, speed = 30, onComplete}) => {
   const [displayedText, setDisplayedText] = useState("");
-  const [currentIndex, setCurrentIndex] = useState(0);
   const textRef = useRef("");
+  const indexRef = useRef(0);
+  const [isTyping, setIsTyping] = useState(false);
 
-  // Handle both initial text and incremental updates
+  // Sync textRef with incoming text
   useEffect(() => {
-    // Reset jika teks baru lebih pendek (berarti ada input baru/reset)
+    // Jika teks direset atau sangat berbeda, mulai dari awal
     if (
       text.length < textRef.current.length ||
       !text.startsWith(textRef.current)
     ) {
       setDisplayedText("");
-      setCurrentIndex(0);
+      indexRef.current = 0;
     }
     textRef.current = text;
+
+    // Mulai animasi jika ada teks baru untuk diketik
+    if (indexRef.current < textRef.current.length) {
+      setIsTyping(true);
+    }
   }, [text]);
 
   useEffect(() => {
-    if (currentIndex < textRef.current.length) {
-      const lag = textRef.current.length - currentIndex;
+    if (!isTyping) return;
 
-      // Mekanisme "Catch-up":
-      // Jika tertinggal jauh, ketik lebih cepat atau lebih banyak karakter sekaligus
-      const currentSpeed = lag > 30 ? 0 : speed;
-      const jumpSize = lag > 100 ? 10 : lag > 50 ? 5 : 1;
+    const typeNextChar = () => {
+      if (indexRef.current < textRef.current.length) {
+        const lag = textRef.current.length - indexRef.current;
 
-      const timeout = setTimeout(() => {
-        setDisplayedText(
-          (prev) =>
-            prev +
-            textRef.current.substring(currentIndex, currentIndex + jumpSize),
+        // Ambil karakter berikutnya
+        // Jika tertinggal sangat jauh (>100 char), ambil 2 karakter sekaligus agar tidak terlalu lama
+        const charsToTake = lag > 100 ? 2 : 1;
+        const nextChars = textRef.current.substring(
+          indexRef.current,
+          indexRef.current + charsToTake,
         );
-        setCurrentIndex((prev) => prev + jumpSize);
-      }, currentSpeed);
 
-      return () => clearTimeout(timeout);
-    } else if (onComplete && textRef.current.length > 0) {
-      onComplete();
-    }
-  }, [currentIndex, speed, onComplete, text]);
+        setDisplayedText((prev) => prev + nextChars);
+        indexRef.current += charsToTake;
+
+        // Tentukan kecepatan detak berikutnya
+        // Jika tertinggal jauh, percepat intervalnya
+        const nextSpeed = lag > 50 ? speed / 4 : lag > 20 ? speed / 2 : speed;
+
+        timeoutRef.current = setTimeout(typeNextChar, nextSpeed);
+      } else {
+        setIsTyping(false);
+        if (onComplete) onComplete();
+      }
+    };
+
+    const timeoutRef = {current: setTimeout(typeNextChar, speed)};
+
+    return () => clearTimeout(timeoutRef.current);
+  }, [isTyping, speed, onComplete]);
 
   return (
     <div className="relative inline-block w-full">
       <span className="opacity-100 transition-opacity duration-300">
         {displayedText}
       </span>
-      {currentIndex < text.length && (
+      {displayedText.length < text.length && (
         <span className="inline-block w-[2px] h-[14px] ml-1 bg-brand-accent animate-pulse align-middle shadow-[0_0_8px_rgba(181,204,106,0.8)]"></span>
       )}
     </div>
