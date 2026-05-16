@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'https://daimyo27-pintartani-backend.hf.space',
         changeOrigin: true,
       }
     }

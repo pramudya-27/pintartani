@@ -75,7 +75,7 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
         try {
           const errorData = await response.json();
           errorMsg = errorData.detail || errorMsg;
-        } catch (e) {
+        } catch {
           // Fallback jika body bukan JSON
         }
         throw new Error(errorMsg);
