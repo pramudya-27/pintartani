@@ -10,6 +10,7 @@ export default defineConfig({
       "/api": {
         target: "https://daimyo27-pintartani-backend.hf.space",
         changeOrigin: true,
+        secure: false,
       },
     },
   },

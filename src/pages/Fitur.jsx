@@ -71,12 +71,12 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
       });
 
       if (!response.ok) {
-        let errorMsg = "Terjadi kesalahan server.";
+        let errorMsg = `Kesalahan Server (${response.status})`;
         try {
           const errorData = await response.json();
           errorMsg = errorData.detail || errorMsg;
         } catch {
-          // Fallback jika body bukan JSON
+          errorMsg = `Error ${response.status}: ${response.statusText || "Terjadi kesalahan koneksi"}`;
         }
         throw new Error(errorMsg);
       }
