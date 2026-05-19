@@ -14,12 +14,11 @@ function Arsitektur() {
           Layer 1 — Antarmuka Pengguna
         </div>
         <h3 className="text-[13px] font-medium text-brand-light mb-1.5">
-          Web Dashboard & Telegram Bot
+          Web Dashboard
         </h3>
         <p className="text-[11px] text-brand-light/40 leading-relaxed">
-          Petani dapat berinteraksi melalui Web Dashboard interaktif atau
-          melalui Telegram Bot. Keduanya dirancang agar mudah digunakan oleh
-          petani di lapangan.
+          Petani dapat berinteraksi langsung melalui Web Dashboard interaktif yang
+          responsif dan dirancang agar mudah digunakan oleh petani di lapangan.
         </p>
       </div>
 

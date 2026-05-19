@@ -23,7 +23,7 @@ function Beranda({setPage, setOpenCard}) {
         <p className="text-sm leading-relaxed text-brand-light/60 mb-7 font-light">
           PintarTani adalah ekosistem asisten pertanian yang terintegrasi secara
           langsung dengan kecerdasan LLM untuk menyajikan data pasar dan cuaca
-          secara pintar ke petani via Telegram & Dashboard.
+          secara pintar ke petani via Web Dashboard.
         </p>
         <div className="flex gap-2.5 flex-wrap">
           <button
