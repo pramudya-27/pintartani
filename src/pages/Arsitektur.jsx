@@ -4,12 +4,13 @@ function Arsitektur() {
   return (
     <div className="p-7 animate-fade-in max-w-3xl mx-auto">
       <h2 className="font-playfair text-2xl font-bold text-brand-accent mb-1.5">
-        Cara Kerja PintarTani
+        Arsitektur Sistem PintarTani
       </h2>
       <p className="text-xs text-brand-light/40 mb-6 leading-relaxed">
-        Bagaimana sistem cerdas kami memproses dan menyajikan data pertanian untuk membantu Anda di ladang secara cepat dan mudah dipahami.
+        Struktur teknologi di balik PintarTani yang dirancang agar ringan, aman, dan bekerja secara instan tanpa memperberat perangkat Anda.
       </p>
 
+      {/* Layer 1 */}
       <div className="bg-white/5 border border-[rgba(180,220,140,0.1)] rounded-xl p-5 mb-4 hover:bg-white/10 transition-all">
         <div className="flex items-center gap-3 mb-3">
           <div className="w-8 h-8 rounded-lg bg-[#8dc868]/20 flex items-center justify-center shrink-0">
@@ -17,18 +18,19 @@ function Arsitektur() {
           </div>
           <div>
             <div className="text-[10px] uppercase tracking-wider text-brand-accent/50 font-semibold">
-              Langkah 1 — Pintu Masuk (Tampilan Aplikasi)
+              Layer 1 — Tampilan Pengguna (Web Dashboard)
             </div>
             <h3 className="text-[14px] font-semibold text-brand-light">
-              Halaman Web Yang Mudah Digunakan
+              Teknologi: React, Vite, & Tailwind CSS
             </h3>
           </div>
         </div>
         <p className="text-[12px] text-brand-light/60 leading-relaxed">
-          Seperti pintu gerbang kebun, ini adalah tempat Anda berinteraksi. Anda cukup mengisi pilihan sederhana (seperti memilih jenis tanaman atau kota) melalui HP atau komputer, lalu mengirimkannya untuk dianalisis.
+          Ini adalah halaman web interaktif yang Anda buka di HP atau komputer. Fungsinya sebagai tempat bagi petani untuk memasukkan data (seperti lokasi lahan, pH tanah, atau jenis tanaman) dan melihat hasil analisis AI dalam bentuk tampilan yang bersih dan mudah dibaca.
         </p>
       </div>
 
+      {/* Layer 2 */}
       <div className="bg-white/5 border border-[rgba(180,220,140,0.1)] rounded-xl p-5 mb-4 hover:bg-white/10 transition-all">
         <div className="flex items-center gap-3 mb-3">
           <div className="w-8 h-8 rounded-lg bg-[#dcb45a]/20 flex items-center justify-center shrink-0">
@@ -36,18 +38,19 @@ function Arsitektur() {
           </div>
           <div>
             <div className="text-[10px] uppercase tracking-wider text-brand-accent/50 font-semibold">
-              Langkah 2 — Penjaga Keamanan & Pembagi Tugas
+              Layer 2 — Penghubung & Keamanan (Core API & Auth)
             </div>
             <h3 className="text-[14px] font-semibold text-brand-light">
-              Pemeriksaan Keamanan & Kuota
+              Teknologi: FastAPI Backend & JWT Security
             </h3>
           </div>
         </div>
         <p className="text-[12px] text-brand-light/60 leading-relaxed">
-          Sistem bertindak seperti mandor kebun. Bagian ini memastikan bahwa Anda telah masuk (login) secara aman, memeriksa sisa kuota harian Anda, dan merapikan pertanyaan Anda agar siap diproses tanpa kendala.
+          Berfungsi sebagai jembatan yang menghubungkan halaman web Anda dengan otak AI di server. Bagian ini bertugas memastikan akun Anda aman (autentikasi), membatasi kuota harian agar sistem tidak kelebihan beban, dan mengarahkan data Anda ke proses berikutnya secara tertib.
         </p>
       </div>
 
+      {/* Layer 3 */}
       <div className="bg-white/5 border border-[rgba(180,220,140,0.1)] rounded-xl p-5 mb-4 hover:bg-white/10 transition-all">
         <div className="flex items-center gap-3 mb-3">
           <div className="w-8 h-8 rounded-lg bg-[#b5cc6a]/20 flex items-center justify-center shrink-0">
@@ -55,18 +58,19 @@ function Arsitektur() {
           </div>
           <div>
             <div className="text-[10px] uppercase tracking-wider text-brand-accent/50 font-semibold">
-              Langkah 3 — Otak Pintar (Asisten AI)
+              Layer 3 — Otak Keputusan AI (Decision Engine & Multi-LLM)
             </div>
             <h3 className="text-[14px] font-semibold text-brand-light">
-              Pakar Pertanian Digital
+              Teknologi: Pengalih Otomatis AI (DeepSeek, Gemini, Qwen)
             </h3>
           </div>
         </div>
         <p className="text-[12px] text-brand-light/60 leading-relaxed">
-          Kami menggunakan beberapa "asisten pintar" (model Kecerdasan Buatan/AI) di belakang layar. Jika salah satu asisten sedang sibuk atau ada kendala koneksi, asisten lainnya akan secara otomatis menggantikan tugas tersebut demi memastikan sistem siap melayani Anda 24 jam nonstop.
+          PintarTani tidak hanya bergantung pada satu otak AI. Kami menggunakan sistem "asisten cadangan". Secara default, sistem akan bertanya pada AI utama (DeepSeek). Namun, jika AI utama sedang sibuk atau lambat, sistem secara otomatis mengalihkan pertanyaan ke AI lain (Gemini atau Qwen) sehingga Anda tidak perlu menunggu lama.
         </p>
       </div>
 
+      {/* Layer 4 */}
       <div className="bg-white/5 border border-[rgba(180,220,140,0.1)] rounded-xl p-5 mb-4 hover:bg-white/10 transition-all">
         <div className="flex items-center gap-3 mb-3">
           <div className="w-8 h-8 rounded-lg bg-[#6496dc]/20 flex items-center justify-center shrink-0">
@@ -74,15 +78,15 @@ function Arsitektur() {
           </div>
           <div>
             <div className="text-[10px] uppercase tracking-wider text-brand-accent/50 font-semibold">
-              Langkah 4 — Hasil Panen Informasi
+              Layer 4 — Pengolahan Data Langsung (On-the-Fly Analysis)
             </div>
             <h3 className="text-[14px] font-semibold text-brand-light">
-              Analisis Langsung dan Cepat
+              Teknologi: Real-Time Stream Synthesis
             </h3>
           </div>
         </div>
         <p className="text-[12px] text-brand-light/60 leading-relaxed">
-          Tidak perlu menunggu berhari-hari. Data harga pasar terkini, prakiraan cuaca, dan rekomendasi takaran pupuk diolah dan disajikan secara instan detik itu juga ke layar HP Anda, lengkap dengan saran tindakan yang praktis.
+          Sistem kami tidak menyimpan database harga pasar atau cuaca lama yang kaku. Setiap kali Anda memencet tombol cek harga atau cuaca, AI akan langsung melakukan pencarian dan analisis saat detik itu juga, lalu mengirimkan jawabannya mengalir baris demi baris (seperti mengetik langsung) ke layar Anda.
         </p>
       </div>
     </div>
