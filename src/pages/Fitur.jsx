@@ -491,8 +491,8 @@ Analisis dan berikan:
                     <div className="mt-4 ai-loading text-xs">
                       <span className="ai-loading-dot"></span>
                       <span className="ai-loading-dot"></span>
-                      <span className="ai-loading-dot"></span> AI sedang
-                      menganalisis data...
+                      <span className="ai-loading-dot"></span> Memulai
+                      menganalisis harga...
                     </div>
                   )}
                   {renderResult(resHarga)}
@@ -573,8 +573,8 @@ Analisis dan berikan:
                     <div className="mt-4 ai-loading text-xs">
                       <span className="ai-loading-dot"></span>
                       <span className="ai-loading-dot"></span>
-                      <span className="ai-loading-dot"></span> AI sedang
-                      menganalisis data...
+                      <span className="ai-loading-dot"></span> Memulai
+                      menganalisis cuaca...
                     </div>
                   )}
                   {renderResult(resCuaca)}
@@ -655,8 +655,8 @@ Analisis dan berikan:
                     <div className="mt-4 ai-loading text-xs">
                       <span className="ai-loading-dot"></span>
                       <span className="ai-loading-dot"></span>
-                      <span className="ai-loading-dot"></span> AI sedang
-                      menganalisis data...
+                      <span className="ai-loading-dot"></span> Memulai
+                      menganalisis kondisi lahan...
                     </div>
                   )}
                   {renderResult(resTanah)}
@@ -811,8 +811,8 @@ Analisis dan berikan:
                     <div className="mt-4 ai-loading text-xs">
                       <span className="ai-loading-dot"></span>
                       <span className="ai-loading-dot"></span>
-                      <span className="ai-loading-dot"></span> Sedang
-                      menganalisis data...
+                      <span className="ai-loading-dot"></span> Memulai
+                      menganalisis rekomendasi...
                     </div>
                   )}
                   {renderResult(resPrediksi)}
