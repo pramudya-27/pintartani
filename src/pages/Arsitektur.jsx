@@ -7,7 +7,8 @@ function Arsitektur() {
         Arsitektur Sistem PintarTani
       </h2>
       <p className="text-xs text-brand-light/40 mb-6 leading-relaxed">
-        Struktur teknologi di balik PintarTani yang dirancang agar ringan, aman, dan bekerja secara instan tanpa memperberat perangkat Anda.
+        Struktur teknologi di balik PintarTani yang dirancang agar ringan, aman,
+        dan bekerja secara instan tanpa memperberat perangkat Anda.
       </p>
 
       {/* Layer 1 */}
@@ -26,7 +27,10 @@ function Arsitektur() {
           </div>
         </div>
         <p className="text-[12px] text-brand-light/60 leading-relaxed">
-          Ini adalah halaman web interaktif yang Anda buka di HP atau komputer. Fungsinya sebagai tempat bagi petani untuk memasukkan data (seperti lokasi lahan, pH tanah, atau jenis tanaman) dan melihat hasil analisis AI dalam bentuk tampilan yang bersih dan mudah dibaca.
+          Ini adalah halaman web interaktif yang Anda buka di HP atau komputer.
+          Fungsinya sebagai tempat bagi petani untuk memasukkan data (seperti
+          lokasi lahan, pH tanah, atau jenis tanaman) dan melihat hasil analisis
+          AI dalam bentuk tampilan yang bersih dan mudah dibaca.
         </p>
       </div>
 
@@ -46,7 +50,10 @@ function Arsitektur() {
           </div>
         </div>
         <p className="text-[12px] text-brand-light/60 leading-relaxed">
-          Berfungsi sebagai jembatan yang menghubungkan halaman web Anda dengan otak AI di server. Bagian ini bertugas memastikan akun Anda aman (autentikasi), membatasi kuota harian agar sistem tidak kelebihan beban, dan mengarahkan data Anda ke proses berikutnya secara tertib.
+          Berfungsi sebagai jembatan yang menghubungkan halaman web Anda dengan
+          otak AI di server. Bagian ini bertugas memastikan akun Anda aman
+          (autentikasi), membatasi kuota harian agar sistem tidak kelebihan
+          beban, dan mengarahkan data Anda ke proses berikutnya secara tertib.
         </p>
       </div>
 
@@ -58,15 +65,23 @@ function Arsitektur() {
           </div>
           <div>
             <div className="text-[10px] uppercase tracking-wider text-brand-accent/50 font-semibold">
-              Layer 3 — Otak Keputusan AI (Decision Engine & Multi-LLM)
+              Layer 3 — Otak Keputusan (Pure LLM / Large Language Models)
             </div>
             <h3 className="text-[14px] font-semibold text-brand-light">
-              Teknologi: Pengalih Otomatis AI (DeepSeek, Gemini, Qwen)
+              Teknologi: Integrasi Murni Model Bahasa Besar (DeepSeek, Gemini,
+              Qwen)
             </h3>
           </div>
         </div>
         <p className="text-[12px] text-brand-light/60 leading-relaxed">
-          PintarTani tidak hanya bergantung pada satu otak AI. Kami menggunakan sistem "asisten cadangan". Secara default, sistem akan bertanya pada AI utama (DeepSeek). Namun, jika AI utama sedang sibuk atau lambat, sistem secara otomatis mengalihkan pertanyaan ke AI lain (Gemini atau Qwen) sehingga Anda tidak perlu menunggu lama.
+          PintarTani tidak menggunakan database data statis atau model
+          kecerdasan buatan lokal yang dilatih mandiri menggunakan dataset
+          tertentu. Sistem ini sepenuhnya menggunakan arsitektur "Pure LLM" yang
+          langsung memanfaatkan kecerdasan Model Bahasa Besar global (seperti
+          DeepSeek, Gemini, dan Qwen) melalui API. Kami menerapkan sistem
+          pengalihan otomatis (fallback routing) agar jika salah satu layanan
+          LLM mengalami gangguan, sistem langsung beralih ke LLM cadangan secara
+          instan.
         </p>
       </div>
 
@@ -86,7 +101,10 @@ function Arsitektur() {
           </div>
         </div>
         <p className="text-[12px] text-brand-light/60 leading-relaxed">
-          Sistem kami tidak menyimpan database harga pasar atau cuaca lama yang kaku. Setiap kali Anda memencet tombol cek harga atau cuaca, AI akan langsung melakukan pencarian dan analisis saat detik itu juga, lalu mengirimkan jawabannya mengalir baris demi baris (seperti mengetik langsung) ke layar Anda.
+          Sistem kami tidak menyimpan database harga pasar atau cuaca lama yang
+          kaku. Setiap kali Anda memencet tombol cek harga atau cuaca, AI akan
+          langsung melakukan pencarian dan analisis saat detik itu juga, lalu
+          mengirimkan jawabannya ke layar Anda.
         </p>
       </div>
     </div>
