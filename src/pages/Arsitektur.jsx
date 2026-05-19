@@ -65,11 +65,10 @@ function Arsitektur() {
           </div>
           <div>
             <div className="text-[10px] uppercase tracking-wider text-brand-accent/50 font-semibold">
-              Layer 3 — Otak Keputusan (Pure LLM / Large Language Models)
+              Layer 3 — Otak Keputusan (Large Language Models)
             </div>
             <h3 className="text-[14px] font-semibold text-brand-light">
-              Teknologi: Integrasi Murni Model Bahasa Besar (DeepSeek, Gemini,
-              Qwen)
+              Teknologi: Integrasi Model Bahasa Besar
             </h3>
           </div>
         </div>
@@ -90,7 +89,7 @@ function Arsitektur() {
           </div>
           <div>
             <div className="text-[10px] uppercase tracking-wider text-brand-accent/50 font-semibold">
-              Layer 4 — Pengolahan Data Langsung (On-the-Fly Analysis)
+              Layer 4 — Pengolahan Data Langsung
             </div>
             <h3 className="text-[14px] font-semibold text-brand-light">
               Teknologi: Real-Time Stream Synthesis
