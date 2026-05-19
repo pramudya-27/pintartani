@@ -7,6 +7,7 @@ import Tentang from "./pages/Tentang";
 import Akun from "./pages/Akun";
 import ResetPassword from "./pages/ResetPassword";
 import Riwayat from "./pages/Riwayat";
+import PalmBackground from "./components/PalmBackground";
 
 function App() {
     const [currentPage, setCurrentPage] = useState(() => {
@@ -28,12 +29,16 @@ function App() {
 
   useEffect(() => {
     if (!loggedInUser && currentPage === "riwayat") {
-      setCurrentPage("beranda");
+      const timer = setTimeout(() => {
+        setCurrentPage("beranda");
+      }, 0);
+      return () => clearTimeout(timer);
     }
   }, [loggedInUser, currentPage]);
 
   return (
     <div className="min-h-screen relative overflow-hidden flex flex-col animate-web-entry">
+      <PalmBackground />
       <div className="bg-grid-pattern absolute inset-0 z-0 pointer-events-none"></div>
 
       <Navbar currentPage={currentPage} setPage={setCurrentPage} loggedInUser={loggedInUser} />
