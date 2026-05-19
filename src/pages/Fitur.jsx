@@ -68,7 +68,7 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
           "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,
         },
-        body: JSON.stringify({prompt, model}),
+        body: JSON.stringify({prompt}),
       });
 
       if (!response.ok) {
@@ -486,68 +486,7 @@ Analisis dan berikan:
                         <option>Sorong</option>
                       </select>
                     </div>
-                    <div>
-                      <div className="flex items-center gap-1.5 mb-1">
-                        <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider block">
-                          Model AI
-                        </label>
-                        <div className="relative group cursor-help">
-                          <Info
-                            size={10}
-                            className="text-brand-light/30 hover:text-brand-accent transition-colors"
-                          />
-                          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 p-2.5 bg-black/90 border border-brand-accent/20 rounded-md text-[9px] text-brand-light/70 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 pointer-events-none shadow-2xl backdrop-blur-md">
-                            <p className="font-bold text-brand-accent mb-1.5 text-[10px] flex items-center gap-1">
-                              <Info size={10} /> Informasi Model AI:
-                            </p>
-                            <ul className="space-y-1.5">
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Auto:
-                                </span>{" "}
-                                Sistem memilih model terbaik secara otomatis.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Deepseek:
-                                </span>{" "}
-                                Terbaik untuk analisis data yang sangat kompleks
-                                & mendalam.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Qwen:
-                                </span>{" "}
-                                Akurasi tinggi untuk data statistik & teknis
-                                pertanian.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Gemini:
-                                </span>{" "}
-                                Respon tercepat, cocok untuk saran kreatif &
-                                harian.
-                              </li>
-                            </ul>
-                            <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-black/90"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <select
-                        className="form-input w-full"
-                        value={model}
-                        onChange={(e) => setModel(e.target.value)}
-                      >
-                        <option value="auto">Auto</option>
-                        <option value="deepseek">Deepseek-V3</option>
-                        <option value="qwen">Qwen-2.5-Coder</option>
-                        <option value="gemini">Gemini-2.0-Flash</option>
-                      </select>
-                    </div>
+                    
                     <button
                       disabled={loading && activeForm === "c-harga"}
                       onClick={aiHarga}
@@ -629,68 +568,7 @@ Analisis dan berikan:
                         <option>Sorong</option>
                       </select>
                     </div>
-                    <div>
-                      <div className="flex items-center gap-1.5 mb-1">
-                        <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider block">
-                          Model AI
-                        </label>
-                        <div className="relative group cursor-help">
-                          <Info
-                            size={10}
-                            className="text-brand-light/30 hover:text-brand-accent transition-colors"
-                          />
-                          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 p-2.5 bg-black/90 border border-brand-accent/20 rounded-md text-[9px] text-brand-light/70 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 pointer-events-none shadow-2xl backdrop-blur-md">
-                            <p className="font-bold text-brand-accent mb-1.5 text-[10px] flex items-center gap-1">
-                              <Info size={10} /> Informasi Model AI:
-                            </p>
-                            <ul className="space-y-1.5">
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Auto:
-                                </span>{" "}
-                                Sistem memilih model terbaik secara otomatis.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Deepseek:
-                                </span>{" "}
-                                Terbaik untuk analisis data yang sangat kompleks
-                                & mendalam.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Qwen:
-                                </span>{" "}
-                                Akurasi tinggi untuk data statistik & teknis
-                                pertanian.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Gemini:
-                                </span>{" "}
-                                Respon tercepat, cocok untuk saran kreatif &
-                                harian.
-                              </li>
-                            </ul>
-                            <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-black/90"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <select
-                        className="form-input w-full"
-                        value={model}
-                        onChange={(e) => setModel(e.target.value)}
-                      >
-                        <option value="auto">Auto</option>
-                        <option value="deepseek">Deepseek-V3</option>
-                        <option value="qwen">Qwen-2.5-Coder</option>
-                        <option value="gemini">Gemini-2.0-Flash</option>
-                      </select>
-                    </div>
+                    
                     <button
                       disabled={loading && activeForm === "c-cuaca"}
                       onClick={aiCuaca}
@@ -772,68 +650,7 @@ Analisis dan berikan:
                         <option>Papua</option>
                       </select>
                     </div>
-                    <div>
-                      <div className="flex items-center gap-1.5 mb-1">
-                        <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider block">
-                          Model AI
-                        </label>
-                        <div className="relative group cursor-help">
-                          <Info
-                            size={10}
-                            className="text-brand-light/30 hover:text-brand-accent transition-colors"
-                          />
-                          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 p-2.5 bg-black/90 border border-brand-accent/20 rounded-md text-[9px] text-brand-light/70 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 pointer-events-none shadow-2xl backdrop-blur-md">
-                            <p className="font-bold text-brand-accent mb-1.5 text-[10px] flex items-center gap-1">
-                              <Info size={10} /> Informasi Model AI:
-                            </p>
-                            <ul className="space-y-1.5">
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Auto:
-                                </span>{" "}
-                                Sistem memilih model terbaik secara otomatis.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Deepseek:
-                                </span>{" "}
-                                Terbaik untuk analisis data yang sangat kompleks
-                                & mendalam.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Qwen:
-                                </span>{" "}
-                                Akurasi tinggi untuk data statistik & teknis
-                                pertanian.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Gemini:
-                                </span>{" "}
-                                Respon tercepat, cocok untuk saran kreatif &
-                                harian.
-                              </li>
-                            </ul>
-                            <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-black/90"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <select
-                        className="form-input w-full"
-                        value={model}
-                        onChange={(e) => setModel(e.target.value)}
-                      >
-                        <option value="auto">Auto </option>
-                        <option value="deepseek">Deepseek-V3</option>
-                        <option value="qwen">Qwen-2.5-Coder</option>
-                        <option value="gemini">Gemini-2.0-Flash</option>
-                      </select>
-                    </div>
+                    
                     <button
                       disabled={loading && activeForm === "c-tanah"}
                       onClick={aiTanah}
@@ -989,68 +806,7 @@ Analisis dan berikan:
                         <option>Papua</option>
                       </select>
                     </div>
-                    <div>
-                      <div className="flex items-center gap-1.5 mb-1">
-                        <label className="text-[10px] text-brand-light/40 font-medium uppercase tracking-wider block">
-                          Model AI
-                        </label>
-                        <div className="relative group cursor-help">
-                          <Info
-                            size={10}
-                            className="text-brand-light/30 hover:text-brand-accent transition-colors"
-                          />
-                          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 p-2.5 bg-black/90 border border-brand-accent/20 rounded-md text-[9px] text-brand-light/70 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 pointer-events-none shadow-2xl backdrop-blur-md">
-                            <p className="font-bold text-brand-accent mb-1.5 text-[10px] flex items-center gap-1">
-                              <Info size={10} /> Informasi Model AI:
-                            </p>
-                            <ul className="space-y-1.5">
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Auto:
-                                </span>{" "}
-                                Sistem memilih model terbaik secara otomatis.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Deepseek:
-                                </span>{" "}
-                                Terbaik untuk analisis data yang sangat kompleks
-                                & mendalam.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Qwen:
-                                </span>{" "}
-                                Akurasi tinggi untuk data statistik & teknis
-                                pertanian.
-                              </li>
-                              <li className="leading-relaxed">
-                                •{" "}
-                                <span className="text-brand-light font-medium">
-                                  Gemini:
-                                </span>{" "}
-                                Respon tercepat, cocok untuk saran kreatif &
-                                harian.
-                              </li>
-                            </ul>
-                            <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-black/90"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <select
-                        className="form-input w-full"
-                        value={model}
-                        onChange={(e) => setModel(e.target.value)}
-                      >
-                        <option value="auto">Auto </option>
-                        <option value="deepseek">Deepseek-V3</option>
-                        <option value="qwen">Qwen-2.5-Coder</option>
-                        <option value="gemini">Gemini-2.0-Flash</option>
-                      </select>
-                    </div>
+                    
                     <button
                       disabled={loading && activeForm === "c-prediksi"}
                       onClick={aiPrediksi}

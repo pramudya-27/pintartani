@@ -1,9 +1,10 @@
 import {useState} from "react";
 import axios from "axios";
-import {UserCircle} from "lucide-react";
+import {UserCircle, ArrowLeft} from "lucide-react";
 
 function Akun({ quota, setQuota, loggedInUser, setLoggedInUser }) {
-  const [isLoginTab, setIsLoginTab] = useState(true);
+  // 'login', 'register', 'forgot'
+  const [activeTab, setActiveTab] = useState("login");
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -26,7 +27,7 @@ function Akun({ quota, setQuota, loggedInUser, setLoggedInUser }) {
         password,
       });
       setMessage(`✅ ${res.data.message}. Silakan login.`);
-      setTimeout(() => setIsLoginTab(true), 1500);
+      setTimeout(() => setActiveTab("login"), 1500);
     } catch (err) {
       setMessage("⚠️ " + (err.response?.data?.detail || err.message));
     } finally {
@@ -56,6 +57,27 @@ function Akun({ quota, setQuota, loggedInUser, setLoggedInUser }) {
       setQuota(res.data.quota_left);
       setMessage("✅ Berhasil login!");
       setLoggedInUser(res.data.username);
+    } catch (err) {
+      setMessage("⚠️ " + (err.response?.data?.detail || err.message));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleForgot = async (e) => {
+    e.preventDefault();
+    if (!email) {
+      setMessage("⚠️ Masukkan email Anda.");
+      return;
+    }
+    setLoading(true);
+    setMessage("⏳ Memproses...");
+
+    try {
+      const res = await axios.post("/api/auth/forgot-password", {
+        email,
+      });
+      setMessage(`✅ ${res.data.message}`);
     } catch (err) {
       setMessage("⚠️ " + (err.response?.data?.detail || err.message));
     } finally {
@@ -100,39 +122,54 @@ function Akun({ quota, setQuota, loggedInUser, setLoggedInUser }) {
         </div>
       ) : (
         <div className="bg-white/5 border border-[rgba(180,220,140,0.1)] rounded-xl p-5">
-          <div className="flex gap-2 mb-4">
-            <button
-              className={`flex-1 text-xs py-2 rounded-md transition-colors ${isLoginTab ? "bg-brand-accent/15 text-brand-accent font-medium" : "text-brand-light/50 hover:bg-white/5"}`}
-              onClick={() => {
-                setIsLoginTab(true);
-                setMessage("");
-              }}
-            >
-              Login
-            </button>
-            <button
-              className={`flex-1 text-xs py-2 rounded-md transition-colors ${!isLoginTab ? "bg-brand-accent/15 text-brand-accent font-medium" : "text-brand-light/50 hover:bg-white/5"}`}
-              onClick={() => {
-                setIsLoginTab(false);
-                setMessage("");
-              }}
-            >
-              Daftar
-            </button>
-          </div>
+          {activeTab === "forgot" ? (
+             <div className="mb-4 flex items-center justify-between">
+               <button 
+                  onClick={() => { setActiveTab("login"); setMessage(""); }}
+                  className="text-xs text-brand-light/50 hover:text-brand-accent flex items-center gap-1 transition-colors"
+               >
+                 <ArrowLeft size={14} /> Kembali
+               </button>
+               <span className="text-xs font-semibold text-brand-light">Lupa Password</span>
+             </div>
+          ) : (
+            <div className="flex gap-2 mb-4">
+              <button
+                className={`flex-1 text-xs py-2 rounded-md transition-colors ${activeTab === "login" ? "bg-brand-accent/15 text-brand-accent font-medium" : "text-brand-light/50 hover:bg-white/5"}`}
+                onClick={() => {
+                  setActiveTab("login");
+                  setMessage("");
+                }}
+              >
+                Login
+              </button>
+              <button
+                className={`flex-1 text-xs py-2 rounded-md transition-colors ${activeTab === "register" ? "bg-brand-accent/15 text-brand-accent font-medium" : "text-brand-light/50 hover:bg-white/5"}`}
+                onClick={() => {
+                  setActiveTab("register");
+                  setMessage("");
+                }}
+              >
+                Daftar
+              </button>
+            </div>
+          )}
 
           <form
-            onSubmit={isLoginTab ? handleLogin : handleRegister}
+            onSubmit={activeTab === "login" ? handleLogin : activeTab === "register" ? handleRegister : handleForgot}
             className="flex flex-col gap-2"
           >
-            <input
-              type="text"
-              className="form-input"
-              placeholder={isLoginTab ? "Username atau Email" : "Username"}
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-            />
-            {!isLoginTab && (
+            {activeTab !== "forgot" && (
+              <input
+                type="text"
+                className="form-input"
+                placeholder={activeTab === "login" ? "Username atau Email" : "Username"}
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+              />
+            )}
+            
+            {(activeTab === "register" || activeTab === "forgot") && (
               <input
                 type="email"
                 className="form-input"
@@ -141,19 +178,36 @@ function Akun({ quota, setQuota, loggedInUser, setLoggedInUser }) {
                 onChange={(e) => setEmail(e.target.value)}
               />
             )}
-            <input
-              type="password"
-              className="form-input"
-              placeholder="Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
+            
+            {activeTab !== "forgot" && (
+              <div>
+                <input
+                  type="password"
+                  className="form-input w-full"
+                  placeholder="Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+                {activeTab === "login" && (
+                  <div className="mt-2 text-right">
+                    <button 
+                      type="button"
+                      onClick={() => { setActiveTab("forgot"); setMessage(""); }}
+                      className="text-[10px] text-brand-light/50 hover:text-brand-accent transition-colors"
+                    >
+                      Lupa Password?
+                    </button>
+                  </div>
+                )}
+              </div>
+            )}
+
             <button
               type="submit"
               disabled={loading}
               className="mt-3 w-full bg-[#4a8c32]/20 hover:bg-[#4a8c32]/30 border border-[#4a8c32]/40 text-[#8dc868] text-xs py-2.5 rounded-md transition-colors disabled:opacity-50"
             >
-              {isLoginTab ? "Masuk" : "Daftar Akun"}
+              {activeTab === "login" ? "Masuk" : activeTab === "register" ? "Daftar Akun" : "Kirim Link Reset"}
             </button>
           </form>
           {message && (

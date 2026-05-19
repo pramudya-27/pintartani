@@ -5,10 +5,16 @@ import Fitur from "./pages/Fitur";
 import Arsitektur from "./pages/Arsitektur";
 import Tentang from "./pages/Tentang";
 import Akun from "./pages/Akun";
+import ResetPassword from "./pages/ResetPassword";
 import Riwayat from "./pages/Riwayat";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("beranda");
+    const [currentPage, setCurrentPage] = useState(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const token = urlParams.get('token');
+    if (token) return "reset-password";
+    return "beranda";
+  });
   const [openCard, setOpenCard] = useState(null);
   
   const [quota, setQuota] = useState(() => {
@@ -48,6 +54,13 @@ function App() {
           {currentPage === "arsitektur" && <Arsitektur />}
           {currentPage === "riwayat" && <Riwayat loggedInUser={loggedInUser} />}
           {currentPage === "tentang" && <Tentang />}
+          
+          {currentPage === "reset-password" && (
+            <ResetPassword 
+              token={new URLSearchParams(window.location.search).get('token')} 
+              setPage={setCurrentPage} 
+            />
+          )}
           {currentPage === "akun" && (
             <Akun
               quota={quota}
