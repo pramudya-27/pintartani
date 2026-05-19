@@ -74,14 +74,11 @@ function Arsitektur() {
           </div>
         </div>
         <p className="text-[12px] text-brand-light/60 leading-relaxed">
-          PintarTani tidak menggunakan database data statis atau model
-          kecerdasan buatan lokal yang dilatih mandiri menggunakan dataset
-          tertentu. Sistem ini sepenuhnya menggunakan arsitektur "Pure LLM" yang
-          langsung memanfaatkan kecerdasan Model Bahasa Besar global (seperti
-          DeepSeek, Gemini, dan Qwen) melalui API. Kami menerapkan sistem
-          pengalihan otomatis (fallback routing) agar jika salah satu layanan
-          LLM mengalami gangguan, sistem langsung beralih ke LLM cadangan secara
-          instan.
+          PintarTani menggunakan arsitektur LLM yang memanfaatkan kecerdasan
+          Model Bahasa Besar global (seperti DeepSeek, Gemini, dan Qwen) melalui
+          API. Kami menerapkan sistem pengalihan otomatis (fallback routing)
+          agar jika salah satu layanan LLM mengalami gangguan, sistem langsung
+          beralih ke LLM cadangan secara instan.
         </p>
       </div>
 
