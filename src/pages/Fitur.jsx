@@ -1,12 +1,5 @@
 import {useState} from "react";
-import {
-  LineChart,
-  CloudRain,
-  FlaskConical,
-  Bot,
-  Sparkles,
-  Info,
-} from "lucide-react";
+import {LineChart, CloudRain, FlaskConical, Bot, Sparkles} from "lucide-react";
 import TypewriterEffect from "../components/TypewriterEffect";
 
 function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
@@ -33,7 +26,6 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
   const [bulanPred, setBulanPred] = useState("");
   const [wilayahPred, setWilayahPred] = useState("");
   const [resPrediksi, setResPrediksi] = useState(null);
-  const [model, setModel] = useState("auto");
 
   const toggleCard = (id) => {
     setOpenCard(openCard === id ? null : id);
@@ -486,7 +478,7 @@ Analisis dan berikan:
                         <option>Sorong</option>
                       </select>
                     </div>
-                    
+
                     <button
                       disabled={loading && activeForm === "c-harga"}
                       onClick={aiHarga}
@@ -568,7 +560,7 @@ Analisis dan berikan:
                         <option>Sorong</option>
                       </select>
                     </div>
-                    
+
                     <button
                       disabled={loading && activeForm === "c-cuaca"}
                       onClick={aiCuaca}
@@ -650,7 +642,7 @@ Analisis dan berikan:
                         <option>Papua</option>
                       </select>
                     </div>
-                    
+
                     <button
                       disabled={loading && activeForm === "c-tanah"}
                       onClick={aiTanah}
@@ -806,7 +798,7 @@ Analisis dan berikan:
                         <option>Papua</option>
                       </select>
                     </div>
-                    
+
                     <button
                       disabled={loading && activeForm === "c-prediksi"}
                       onClick={aiPrediksi}
