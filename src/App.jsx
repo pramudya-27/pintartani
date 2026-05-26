@@ -1,4 +1,5 @@
 import {useState, useEffect} from "react";
+import axios from "axios";
 import Navbar from "./components/Navbar";
 import Beranda from "./pages/Beranda";
 import Fitur from "./pages/Fitur";
@@ -26,6 +27,28 @@ function App() {
   const [loggedInUser, setLoggedInUser] = useState(() => {
     return localStorage.getItem("pt_user") || null;
   });
+
+  useEffect(() => {
+    const token = localStorage.getItem("pt_token");
+    if (token && loggedInUser) {
+      axios.get("/api/auth/quota", {
+        headers: { Authorization: `Bearer ${token}` }
+      })
+      .then(res => {
+        localStorage.setItem("pt_quota", res.data.quota_left);
+        setQuota(res.data.quota_left);
+      })
+      .catch(err => {
+        if (err.response?.status === 401) {
+          localStorage.removeItem("pt_token");
+          localStorage.removeItem("pt_user");
+          localStorage.removeItem("pt_quota");
+          setLoggedInUser(null);
+          setQuota(5);
+        }
+      });
+    }
+  }, [loggedInUser]);
 
   useEffect(() => {
     if (!loggedInUser && currentPage === "riwayat") {
