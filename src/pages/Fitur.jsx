@@ -122,37 +122,32 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
       // Simpan ke Riwayat setelah selesai streaming
       const finalCleanContent = parseAIResponse(accumulatedContent);
       try {
-        const historyItem = {
-          id: Date.now().toString(),
-          timestamp: new Date().toLocaleString("id-ID", {
-            dateStyle: "medium",
-            timeStyle: "short",
+        const type =
+          openCard === "c-harga"
+            ? "Harga Pasar"
+            : openCard === "c-cuaca"
+              ? "Cuaca & Risiko"
+              : openCard === "c-tanah"
+                ? "Analisis Lahan"
+                : openCard === "c-prediksi"
+                  ? "Prediksi Tanam"
+                  : "Analisis AI";
+
+        await fetch(`${BASE_URL}/api/history`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({
+            type,
+            prompt,
+            content: finalCleanContent,
+            source,
           }),
-          type:
-            openCard === "c-harga"
-              ? "Harga Pasar"
-              : openCard === "c-cuaca"
-                ? "Cuaca & Risiko"
-                : openCard === "c-tanah"
-                  ? "Analisis Lahan"
-                  : openCard === "c-prediksi"
-                    ? "Prediksi Tanam"
-                    : "Analisis AI",
-          prompt: prompt,
-          content: finalCleanContent,
-          source: source,
-        };
-        const username = loggedInUser || localStorage.getItem("pt_user");
-        const historyKey = username ? `pt_history_${username}` : "pt_history";
-        const existingHistory = JSON.parse(
-          localStorage.getItem(historyKey) || "[]",
-        );
-        localStorage.setItem(
-          historyKey,
-          JSON.stringify([historyItem, ...existingHistory]),
-        );
+        });
       } catch (historyErr) {
-        console.error("Gagal menyimpan riwayat:", historyErr);
+        console.error("Gagal menyimpan riwayat ke DB:", historyErr);
       }
     } catch (err) {
       if (err.message === "Unauthorized" || err.status === 401) {

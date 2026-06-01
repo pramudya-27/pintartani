@@ -1,4 +1,5 @@
-import {useState} from "react";
+import {useState, useEffect} from "react";
+import axios from "axios";
 import {
   LineChart,
   CloudRain,
@@ -10,43 +11,81 @@ import {
 } from "lucide-react";
 
 function Riwayat({loggedInUser}) {
-  const historyKey = loggedInUser ? `pt_history_${loggedInUser}` : "pt_history";
+  const [history, setHistory] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const [history, setHistory] = useState(() => {
-    try {
-      return JSON.parse(localStorage.getItem(historyKey) || "[]");
-    } catch (e) {
-      console.error("Gagal memuat riwayat awal:", e);
-      return [];
-    }
-  });
-
-  const [prevHistoryKey, setPrevHistoryKey] = useState(historyKey);
-
-  if (historyKey !== prevHistoryKey) {
-    setPrevHistoryKey(historyKey);
-    try {
-      setHistory(JSON.parse(localStorage.getItem(historyKey) || "[]"));
-    } catch (e) {
-      console.error("Gagal menyinkronkan riwayat:", e);
+  const fetchHistory = async () => {
+    const token = localStorage.getItem("pt_token");
+    if (!token) {
       setHistory([]);
+      return;
     }
-  }
+    setLoading(true);
+    setError("");
+    try {
+      const response = await axios.get("/api/history", {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      });
+      const mappedHistory = response.data.map(item => ({
+        id: item.id,
+        timestamp: new Date(item.created_at).toLocaleString("id-ID", {
+          dateStyle: "medium",
+          timeStyle: "short",
+        }),
+        type: item.type,
+        prompt: item.prompt,
+        content: item.content,
+        source: item.source || "System"
+      }));
+      setHistory(mappedHistory);
+    } catch (err) {
+      console.error("Gagal memuat riwayat:", err);
+      setError("Gagal memuat riwayat dari server.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchHistory();
+  }, [loggedInUser]);
 
   const [searchQuery, setSearchQuery] = useState("");
   const [filterType, setFilterType] = useState("Semua");
   const [showConfirmClear, setShowConfirmClear] = useState(false);
 
-  const handleDeleteItem = (id) => {
-    const updatedHistory = history.filter((item) => item.id !== id);
-    setHistory(updatedHistory);
-    localStorage.setItem(historyKey, JSON.stringify(updatedHistory));
+  const handleDeleteItem = async (id) => {
+    const token = localStorage.getItem("pt_token");
+    if (!token) return;
+    try {
+      await axios.delete(`/api/history/${id}`, {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      });
+      setHistory(prev => prev.filter((item) => item.id !== id));
+    } catch (err) {
+      console.error("Gagal menghapus riwayat:", err);
+    }
   };
 
-  const handleClearAll = () => {
-    setHistory([]);
-    localStorage.removeItem(historyKey);
-    setShowConfirmClear(false);
+  const handleClearAll = async () => {
+    const token = localStorage.getItem("pt_token");
+    if (!token) return;
+    try {
+      await axios.delete("/api/history", {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      });
+      setHistory([]);
+      setShowConfirmClear(false);
+    } catch (err) {
+      console.error("Gagal menghapus semua riwayat:", err);
+    }
   };
 
   const getIcon = (type) => {
