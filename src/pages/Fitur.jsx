@@ -12,6 +12,7 @@ function Fitur({openCard, setOpenCard, setQuota, loggedInUser}) {
   const [resHarga, setResHarga] = useState(null);
 
   // States for Cuaca
+  const [komoditasCuaca, setKomoditasCuaca] = useState("");
   const [kotaCuaca, setKotaCuaca] = useState("");
   const [resCuaca, setResCuaca] = useState(null);
 
